@@ -16415,6 +16415,23 @@
     "derivation_path": "m/44'/566'"
   },
   {
+    "coin": "ATOM-IBC_OSMO",
+    "name": "cosmos_ibc_osmo",
+    "fname": "Cosmos",
+    "avg_blocktime": 7,
+    "mm2": 1,
+    "protocol": {
+      "type": "TENDERMINTTOKEN",
+      "protocol_data": {
+        "platform": "OSMO",
+        "decimals": 6,
+        "denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+        "gas_price": 0.5
+      }
+    },
+    "derivation_path": "m/44'/566'"
+  },
+  {
     "coin": "MAZA",
     "name": "mazacoin",
     "fname": "MazaCoin",
