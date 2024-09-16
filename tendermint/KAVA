@@ -1,0 +1,8 @@
+{
+    "rpc_nodes": [
+        {
+            "url": "https://rpc.cosmos.directory/kava",
+            "api_url": "https://rest.cosmos.directory/kava"
+        }
+    ]
+}

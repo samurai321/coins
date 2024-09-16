@@ -1,19 +1,23 @@
 {
-  "rpc_nodes": [
-    {
-      "url": "https://rpc.osmosis.zone/"
-    },
-    {
-      "url": "https://osmosis.rpc.stakin-nodes.com"
-    },
-    {
-      "url": "https://rpc-osmosis-ia.cosmosia.notional.ventures/"
-    },
-    {
-      "url": "https://osmosis-rpc.alpha.komodo.earth/",
-      "api_url": "https://osmosis-api.alpha.komodo.earth/",
-      "grpc_url": "https://osmosis-grpc.alpha.komodo.earth/",
-      "ws_url": "wss://osmosis-rpc.alpha.komodo.earth/websocket"
-    }
-  ]
+    "rpc_nodes": [
+        {
+            "url": "https://rpc.osmosis.zone/"
+        },
+        {
+            "url": "https://osmosis.rpc.stakin-nodes.com"
+        },
+        {
+            "url": "https://rpc-osmosis-ia.cosmosia.notional.ventures/"
+        },
+        {
+            "url": "https://osmosis-rpc.alpha.komodo.earth/",
+            "api_url": "https://osmosis-api.alpha.komodo.earth/",
+            "grpc_url": "https://osmosis-grpc.alpha.komodo.earth/",
+            "ws_url": "wss://osmosis-rpc.alpha.komodo.earth/websocket"
+        },
+        {
+            "url": "https://rpc.cosmos.directory/osmosis",
+            "api_url": "https://rest.cosmos.directory/osmosis"
+        }
+    ]
 }

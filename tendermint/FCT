@@ -1,0 +1,8 @@
+{
+    "rpc_nodes": [
+        {
+            "url": "https://rpc.cosmos.directory/firmachain",
+            "api_url": "https://rest.cosmos.directory/firmachain"
+        }
+    ]
+}

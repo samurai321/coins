@@ -1,0 +1,8 @@
+{
+    "rpc_nodes": [
+        {
+            "url": "https://rpc.cosmos.directory/carbon",
+            "api_url": "https://rest.cosmos.directory/carbon"
+        }
+    ]
+}

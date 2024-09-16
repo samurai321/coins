@@ -1,0 +1,8 @@
+{
+    "rpc_nodes": [
+        {
+            "url": "https://rpc.cosmos.directory/sentinel",
+            "api_url": "https://rest.cosmos.directory/sentinel"
+        }
+    ]
+}

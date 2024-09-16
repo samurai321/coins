@@ -1,0 +1,8 @@
+{
+    "rpc_nodes": [
+        {
+            "url": "https://rpc.cosmos.directory/pryzm",
+            "api_url": "https://rest.cosmos.directory/pryzm"
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "rpc_nodes": [
+        {
+            "url": "https://rpc.cosmos.directory/stargaze",
+            "api_url": "https://rest.cosmos.directory/stargaze"
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "rpc_nodes": [
+        {
+            "url": "https://rpc.cosmos.directory/joltify",
+            "api_url": "https://rest.cosmos.directory/joltify"
+        }
+    ]
+}

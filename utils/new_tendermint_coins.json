@@ -2479,160 +2479,24 @@
         "derivation_path": "m/44'/118'"
     },
     {
-        "coin": "INJ",
+        "coin": "IMV",
         "avg_blocktime": 7,
-        "name": "injective",
-        "fname": "Injective",
+        "name": "imversed",
+        "fname": "Imversed",
         "mm2": 1,
         "wallet_only": true,
         "protocol": {
             "type": "TENDERMINT",
             "protocol_data": {
                 "decimals": 18,
-                "denom": "inj",
-                "account_prefix": "inj",
-                "chain_registry_name": "injective",
-                "chain_id": "injective-1",
-                "gas_price": 700000000
+                "denom": "aimv",
+                "account_prefix": "imv",
+                "chain_registry_name": "imversed",
+                "chain_id": "imversed_5555555-1",
+                "gas_price": 25000000000
             }
         },
         "derivation_path": "m/44'/60'"
-    },
-    {
-        "coin": "USDTkv-IBC_INJ",
-        "name": "usdtkv-ibc_inj",
-        "fname": "Tether USDt",
-        "avg_blocktime": 7,
-        "mm2": 1,
-        "wallet_only": true,
-        "protocol": {
-            "type": "TENDERMINTTOKEN",
-            "protocol_data": {
-                "platform": "INJ",
-                "decimals": 18,
-                "denom": "ibc/4ABBEF4C8926DDDB320AE5188CFD63267ABBCEFC0583E4AE05D6E5AA2401DDAB",
-                "gas_price": 700000000
-            }
-        }
-    },
-    {
-        "coin": "USDT-IBC_INJ",
-        "name": "usdt-ibc_inj",
-        "fname": "Tether USDT",
-        "avg_blocktime": 7,
-        "mm2": 1,
-        "wallet_only": true,
-        "protocol": {
-            "type": "TENDERMINTTOKEN",
-            "protocol_data": {
-                "platform": "INJ",
-                "decimals": 18,
-                "denom": "peggy0xdAC17F958D2ee523a2206206994597C13D831ec7",
-                "gas_price": 700000000
-            }
-        }
-    },
-    {
-        "coin": "WOSMO-IBC_INJ",
-        "name": "wosmo-ibc_inj",
-        "fname": "Wosmo",
-        "avg_blocktime": 7,
-        "mm2": 1,
-        "wallet_only": true,
-        "protocol": {
-            "type": "TENDERMINTTOKEN",
-            "protocol_data": {
-                "platform": "INJ",
-                "decimals": 18,
-                "denom": "ibc/DD648F5D3CDA56D0D8D8820CF703D246B9FC4007725D8B38D23A21FF1A1477E3",
-                "gas_price": 700000000
-            }
-        }
-    },
-    {
-        "coin": "BADKID-IBC_INJ",
-        "name": "badkid-ibc_inj",
-        "fname": "Badkid",
-        "avg_blocktime": 7,
-        "mm2": 1,
-        "wallet_only": true,
-        "protocol": {
-            "type": "TENDERMINTTOKEN",
-            "protocol_data": {
-                "platform": "INJ",
-                "decimals": 18,
-                "denom": "ibc/A0C5AD197FECAF6636F589071338DC7ECD6B0809CD3A5AB131EAAA5395E7E5E8",
-                "gas_price": 700000000
-            }
-        }
-    },
-    {
-        "coin": "ASTRO-IBC_INJ",
-        "name": "astro-ibc_inj",
-        "fname": "Astroport token",
-        "avg_blocktime": 7,
-        "mm2": 1,
-        "wallet_only": true,
-        "protocol": {
-            "type": "TENDERMINTTOKEN",
-            "protocol_data": {
-                "platform": "INJ",
-                "decimals": 18,
-                "denom": "ibc/063F4461F7317CFF10F50AB044E44932D22AAD84FA7107082744946E6DB7B7A8",
-                "gas_price": 700000000
-            }
-        }
-    },
-    {
-        "coin": "NBZ-IBC_INJ",
-        "name": "nbz-ibc_inj",
-        "fname": "Ninja Blaze Token",
-        "avg_blocktime": 7,
-        "mm2": 1,
-        "wallet_only": true,
-        "protocol": {
-            "type": "TENDERMINTTOKEN",
-            "protocol_data": {
-                "platform": "INJ",
-                "decimals": 18,
-                "denom": "ibc/1011E4D6D4800DA9B8F21D7C207C0B0C18E54E614A8576037F066B775210709D",
-                "gas_price": 700000000
-            }
-        }
-    },
-    {
-        "coin": "USDC-IBC_INJ",
-        "name": "usdc-ibc_inj",
-        "fname": "USDC",
-        "avg_blocktime": 7,
-        "mm2": 1,
-        "wallet_only": true,
-        "protocol": {
-            "type": "TENDERMINTTOKEN",
-            "protocol_data": {
-                "platform": "INJ",
-                "decimals": 18,
-                "denom": "ibc/2CBC2EA121AE42563B08028466F37B600F2D7D4282342DE938283CC3FB2BC00E",
-                "gas_price": 700000000
-            }
-        }
-    },
-    {
-        "coin": "XTRUMP-IBC_INJ",
-        "name": "xtrump-ibc_inj",
-        "fname": "XTRUMP",
-        "avg_blocktime": 7,
-        "mm2": 1,
-        "wallet_only": true,
-        "protocol": {
-            "type": "TENDERMINTTOKEN",
-            "protocol_data": {
-                "platform": "INJ",
-                "decimals": 18,
-                "denom": "ibc/5339B0D20986A7C20C2548ED9D6B8DE47BB64E03ABFD051B7792E713036EA20C",
-                "gas_price": 700000000
-            }
-        }
     },
     {
         "coin": "IRIS",
@@ -3267,26 +3131,6 @@
         "derivation_path": "m/44'/60'"
     },
     {
-        "coin": "MARS.old",
-        "avg_blocktime": 7,
-        "name": "mars",
-        "fname": "Mars Hub",
-        "mm2": 1,
-        "wallet_only": true,
-        "protocol": {
-            "type": "TENDERMINT",
-            "protocol_data": {
-                "decimals": 6,
-                "denom": "umars",
-                "account_prefix": "mars",
-                "chain_registry_name": "mars",
-                "chain_id": "mars-1",
-                "gas_price": 0
-            }
-        },
-        "derivation_path": "m/44'/118'"
-    },
-    {
         "coin": "CACAO",
         "avg_blocktime": 7,
         "name": "mayachain",
@@ -3301,7 +3145,7 @@
                 "account_prefix": "maya",
                 "chain_registry_name": "mayachain",
                 "chain_id": "mayachain-mainnet-v1",
-                "gas_price": 0
+                "gas_price": 20000000000
             }
         },
         "derivation_path": "m/44'/931'"
@@ -4322,6 +4166,26 @@
                 "chain_registry_name": "octa",
                 "chain_id": "octa",
                 "gas_price": 0.025
+            }
+        },
+        "derivation_path": "m/44'/118'"
+    },
+    {
+        "coin": "ODIN",
+        "avg_blocktime": 7,
+        "name": "odin",
+        "fname": "Odin Protocol",
+        "mm2": 1,
+        "wallet_only": true,
+        "protocol": {
+            "type": "TENDERMINT",
+            "protocol_data": {
+                "decimals": 6,
+                "denom": "loki",
+                "account_prefix": "odin",
+                "chain_registry_name": "odin",
+                "chain_id": "odin-mainnet-freya",
+                "gas_price": 0.05
             }
         },
         "derivation_path": "m/44'/118'"

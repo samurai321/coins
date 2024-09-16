@@ -1,0 +1,8 @@
+{
+    "rpc_nodes": [
+        {
+            "url": "https://rpc.cosmos.directory/terra2",
+            "api_url": "https://rest.cosmos.directory/terra2"
+        }
+    ]
+}

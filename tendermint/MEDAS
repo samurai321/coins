@@ -1,0 +1,8 @@
+{
+    "rpc_nodes": [
+        {
+            "url": "https://rpc.cosmos.directory/medasdigital",
+            "api_url": "https://rest.cosmos.directory/medasdigital"
+        }
+    ]
+}

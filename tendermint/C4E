@@ -1,0 +1,8 @@
+{
+    "rpc_nodes": [
+        {
+            "url": "https://rpc.cosmos.directory/chain4energy",
+            "api_url": "https://rest.cosmos.directory/chain4energy"
+        }
+    ]
+}

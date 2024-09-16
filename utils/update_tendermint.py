@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import os
 import time
 import json
 import requests
@@ -47,6 +48,7 @@ def get_new_coins():
     new_coins_data = []
     new_explorers = {}
     new_images = {}
+    new_gecko_ids = {}
     dead = []
     for i in cosmos_chains:
         time.sleep(0.1)
@@ -71,39 +73,23 @@ def get_new_coins():
         # TODO: backfill from existing repo data for other price ids
         if "coingecko_id" not in i:
             gecko_id = ""
-            gecko_info = None
+            # gecko_info = None
         else:
             gecko_id = i["coingecko_id"]
-            gecko_info = get_gecko_info(gecko_id)
-
-        # Proxies to best available
-        nodes = {
-            "url": "https://rpc.cosmos.directory/{chain_registry_name}",
-            "api_url": "https://rest.cosmos.directory/{chain_registry_name}",
-        }
-
-        # TODO: make explorer files for each chain
-        if "explorers" in i:
-            new_explorers.update({main_symbol: i["explorers"]})
+            # gecko_info = get_gecko_info(gecko_id)
 
         chain_data = get_cosmos_chain(chain_registry_name)
         if chain_data is None:
             print(f"Skipping {chain_registry_name} because there is no chain data")
             continue
-        if "explorers" in chain_data:
-            new_explorers.update({main_symbol: chain_data["explorers"]})
-        if "images" in chain_data:
-            if len(chain_data["images"]) > 0:
-                if "png" in chain_data["images"][0]:
-                    new_images.update({main_symbol: chain_data["images"][0]["png"]})
 
         if "coingecko_id" not in chain_data:
             print(f"{main_symbol} has no coingecko_id!")
             gecko_id = ""
-            gecko_info = None
+            # gecko_info = None
         elif gecko_id == "":
             gecko_id = chain_data["coingecko_id"]
-            gecko_info = get_gecko_info(gecko_id)
+            # gecko_info = get_gecko_info(gecko_id)
 
         assets_data = get_cosmos_assets(chain_registry_name)
         if assets_data is None:
@@ -152,6 +138,15 @@ def get_new_coins():
                     "derivation_path": derivation_path,
                 }
             )
+            if "explorers" in i:
+                new_explorers.update({main_symbol: [e['url'] for e in i["explorers"]]})
+            if "explorers" in chain_data:
+                new_explorers.update({main_symbol: [e['url'] for e in chain_data["explorers"]]})
+            if "images" in chain_data:
+                if len(chain_data["images"]) > 0:
+                    if "png" in chain_data["images"][0]:
+                        new_images.update({main_symbol: chain_data["images"][0]["png"]})
+            new_gecko_ids.update({main_symbol: gecko_id})
         except Exception as e:
             print(f"Error adding for {main_symbol} to new_coins_data: {e}")
             continue
@@ -179,10 +174,10 @@ def get_new_coins():
             try:
                 if "coingecko_id" not in j:
                     gecko_id = ""
-                    gecko_info = None
+                    # gecko_info = None
                 else:
                     gecko_id = j["coingecko_id"]
-                    gecko_info = get_gecko_info(gecko_id)
+                    # gecko_info = get_gecko_info(gecko_id)
                 if j["symbol"] == main_symbol:
                     print(f"Skipping {ticker} because you cant be a token of yourself")
                     continue
@@ -206,6 +201,7 @@ def get_new_coins():
                         },
                     }
                 )
+                new_gecko_ids.update({ticker: gecko_id})
             except Exception as e:
                 print(f"Error adding for {ticker} to new_coins_data: {e}")
                 continue
@@ -214,15 +210,26 @@ def get_new_coins():
         json.dump(new_coins_data, f, indent=4)
 
     print(f"Found {len(new_coins_data)} new coins")
-    return new_coins_data, new_explorers, new_images
+    return new_coins_data, new_explorers, new_images, new_gecko_ids
+
+
+def is_tendermint_coin(coin_data):
+    try:
+        if coin_data['protocol']['type'] == "TENDERMINT":
+            return True
+    except:
+        pass
+    return False
+
 
 def update_repo_data():
+    # `coins` file update
     with open("../coins", "r") as f:
         verify = []
         updated_coins = []
         coins = json.load(f)
         coins_list = [i['coin'] for i in coins]
-        new_coins, new_explorers, new_images = get_new_coins()
+        new_coins, new_explorers, new_images, new_gecko_ids = get_new_coins()
         new_coins_list = [i['coin'] for i in new_coins]
         for i in coins:
             # Retain existing coins not in the update
@@ -232,12 +239,87 @@ def update_repo_data():
             updated_coins.append(j)
             if j['coin'] in coins_list:
                 print(f"{j['coin']} update is replacing exisiting data, please verify!")
-                verify.append(j)
+                verify.append(j['coin'])
                 # TODO: automate comparison of data
         with open("updated_coins", "w") as f:
             json.dump(updated_coins, f, indent=4)
         print(f"Updated {len(updated_coins)} coins")
         print(f"{len(verify)} coins to verify: {verify}")
+        print(f"Once verified, replace `coins` with `updated_coins`")
+        # TODO: automate comparison of data, ignore where no changes
+
+
+    # `tendermint` folder update
+    tendermint_servers = os.listdir("../tendermint")
+    for i in updated_coins:
+        if is_tendermint_coin(i):
+            servers = {"rpc_nodes": []}
+            skip_update = False
+            if 'chain_registry_name' in i['protocol']['protocol_data']:
+                chain_registry_name = i['protocol']['protocol_data']['chain_registry_name']
+
+                if i['coin'] in tendermint_servers:
+                    with open(f"../tendermint/{i['coin']}", "r") as f:
+                        servers = json.load(f)
+                        for server in servers['rpc_nodes']:
+                            if server['url'] == f"https://rpc.cosmos.directory/{chain_registry_name}":
+                                skip_update = True
+                if i['coin'] in ["IRISTEST", "NUCLEUSTEST"]:
+                    skip_update = True
+                if skip_update is False:
+                    # Proxies to best available
+                    proxy_nodes = {
+                        "url": f"https://rpc.cosmos.directory/{chain_registry_name}",
+                        "api_url": f"https://rest.cosmos.directory/{chain_registry_name}"
+                    }
+                    print(f"Updating {i['coin']} with proxy nodes")
+                    print(servers)
+                    servers['rpc_nodes'].append(proxy_nodes)
+                    with open(f"../tendermint/{i['coin']}", "w+") as f:
+                        json.dump(servers, f, indent=4)
+                        print(f"Updated {i['coin']} with proxy nodes")
+
+    # `explorers` folder update
+    old_explorers = os.listdir("../explorers")
+    for i in updated_coins:
+        if is_tendermint_coin(i):
+            explorers = []
+            if i['coin'] in old_explorers:
+                with open(f"../explorers/{i['coin']}", "r") as f:
+                    explorers = json.load(f)
+
+            if i['coin'] in new_explorers:
+                
+                explorers = list(set(explorers + new_explorers[i['coin']]))
+                with open(f"../explorers/{i['coin']}", "w+") as f:
+                    json.dump(explorers, f, indent=4)
+                    print(f"Updated {i['coin']} with explorer nodes")
+
+    # `api_ids` folder update
+    with open("../api_ids/coingecko_ids.json", "r") as f:
+        old_gecko_ids = json.load(f)
+        
+    for i in new_gecko_ids:
+        if new_gecko_ids[i] == "":
+            base_coin = i.split('-')[0]
+            if base_coin in old_gecko_ids:
+                old_gecko_ids.update({
+                    i: old_gecko_ids[base_coin]
+                })
+        else:
+            old_gecko_ids.update({i: new_gecko_ids[i]})
+    with open("../api_ids/coingecko_ids.json", "w") as f:
+        json.dump(old_gecko_ids, f, indent=4)
+            
+    # `images` folder update
+    for i in new_images:
+        if i not in os.listdir("../icons"):
+            os.system(f"wget {new_images[i]} -O ../icons/{i.lower()}.png")
+            print(f"Downloaded {i}.png")
+        else:
+            print(f"Skipping {i}.png because it already exists")
+        
+    
 
 if __name__ == "__main__":
     update_repo_data()

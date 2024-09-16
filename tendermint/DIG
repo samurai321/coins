@@ -1,0 +1,8 @@
+{
+    "rpc_nodes": [
+        {
+            "url": "https://rpc.cosmos.directory/dig",
+            "api_url": "https://rest.cosmos.directory/dig"
+        }
+    ]
+}

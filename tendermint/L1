@@ -1,0 +1,8 @@
+{
+    "rpc_nodes": [
+        {
+            "url": "https://rpc.cosmos.directory/genesisl1",
+            "api_url": "https://rest.cosmos.directory/genesisl1"
+        }
+    ]
+}

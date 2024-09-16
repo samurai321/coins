@@ -1,0 +1,8 @@
+{
+    "rpc_nodes": [
+        {
+            "url": "https://rpc.cosmos.directory/juno",
+            "api_url": "https://rest.cosmos.directory/juno"
+        }
+    ]
+}

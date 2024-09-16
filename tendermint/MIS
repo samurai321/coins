@@ -1,0 +1,8 @@
+{
+    "rpc_nodes": [
+        {
+            "url": "https://rpc.cosmos.directory/mises",
+            "api_url": "https://rest.cosmos.directory/mises"
+        }
+    ]
+}
