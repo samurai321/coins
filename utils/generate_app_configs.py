@@ -255,7 +255,9 @@ class CoinConfig:
             elif "platform" in protocol_data:
                 # TODO: ERC-like things
                 platform = protocol_data["platform"]
-                if self.is_testnet:
+                if self.coin_data["protocol"]["type"] in ["TENDERMINT", "TENDERMINTTOKEN"]:
+                    coin_type = "TENDERMINT"
+                elif self.is_testnet:
                     coin_type = self.testnet_protocols[platform]
                 else:
                     coin_type = self.protocols[platform]
@@ -379,14 +381,13 @@ class CoinConfig:
                 return f"t{token_type}"
             return token_type
 
-        if self.coin_type in ["TENDERMINTTOKEN", "TENDERMINT"]:
-            for i in ["IRISTEST", "NUCLEUSTEST"]:
-                if self.ticker.find(i) > -1:
-                    self.is_testnet = True
-                    return i
-            for i in ["IBC_IRIS", "IBC_ATOM", "IBC_OSMO"]:
-                if self.ticker.find(i) > -1:
-                    return i.replace("IBC_", "")
+        if self.coin_type in ["TENDERMINT"]:
+            if self.ticker in ["IRISTEST", "NUCLEUSTEST"]:
+                self.is_testnet = True
+            return self.ticker
+                
+        if self.coin_type in ["TENDERMINTTOKEN"]:
+            return self.ticker.split("-IBC_")[1]
 
         if self.coin_type not in ["UTXO", "ZHTLC", "BCH", "QTUM"]:
             if self.data[self.ticker]["is_testnet"]:

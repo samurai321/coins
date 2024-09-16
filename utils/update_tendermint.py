@@ -313,8 +313,8 @@ def update_repo_data():
             
     # `images` folder update
     for i in new_images:
-        if i not in os.listdir("../icons"):
-            os.system(f"wget {new_images[i]} -O ../icons/{i.lower()}.png")
+        if i not in os.listdir("../icons_original"):
+            os.system(f"wget {new_images[i]} -O ../icons_original/{i.lower()}.png")
             print(f"Downloaded {i}.png")
         else:
             print(f"Skipping {i}.png because it already exists")
