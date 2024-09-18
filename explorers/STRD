@@ -1,12 +1,12 @@
 [
-    "https://explorer.stride.zone/stride",
-    "https://www.mintscan.io/stride",
     "https://apollo.chandrastation.com/stride",
-    "https://explorer.stavr.tech/stride",
-    "https://explorer.bccnodes.com/stride-M",
-    "https://stakeflow.io/stride",
-    "https://explorer.stake-take.com/stride",
-    "https://ezstaking.app/stride",
     "https://atomscan.com/stride",
-    "https://mainnet.whispernode.com/stride"
+    "https://explorer.bccnodes.com/stride-M",
+    "https://explorer.stake-take.com/stride",
+    "https://explorer.stavr.tech/stride",
+    "https://explorer.stride.zone/stride",
+    "https://ezstaking.app/stride",
+    "https://mainnet.whispernode.com/stride",
+    "https://stakeflow.io/stride",
+    "https://www.mintscan.io/stride"
 ]

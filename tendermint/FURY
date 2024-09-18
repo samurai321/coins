@@ -1,6 +1,10 @@
 {
     "rpc_nodes": [
         {
+            "url": "https://rpc.cosmos.directory/furya",
+            "api_url": "https://rest.cosmos.directory/furya"
+        },
+        {
             "url": "https://rpc.cosmos.directory/highbury",
             "api_url": "https://rest.cosmos.directory/highbury"
         }

@@ -1,6 +1,10 @@
 {
     "rpc_nodes": [
         {
+            "url": "https://rpc.cosmos.directory/nomic",
+            "api_url": "https://rest.cosmos.directory/nomic"
+        },
+        {
             "url": "https://rpc.cosmos.directory/onomy",
             "api_url": "https://rest.cosmos.directory/onomy"
         }

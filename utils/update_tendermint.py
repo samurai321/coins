@@ -40,6 +40,21 @@ def get_cosmos_assets(chain_registry_name):
         print(f"Error getting assets data for {chain_registry_name}: {url}")
         return None
 
+def validate_symbol(symbol):
+    if symbol.upper() != symbol:
+        print(f"Skipping {symbol} because it is not all uppercase")
+        return False
+    if symbol.find(' ') > -1:
+        print(f"Skipping {symbol} because it has a space in it")
+        return False
+    if symbol.find('.') > -1:
+        print(f"Skipping {symbol} because it has a '.' in it")
+        return False
+    if symbol.find('-') > -1:
+        print(f"Skipping {symbol} because it has a '-' in it")
+        return False
+    return True
+
 
 def get_new_coins():
     cosmos_chains = get_cosmos_directory()
@@ -51,21 +66,24 @@ def get_new_coins():
     new_gecko_ids = {}
     dead = []
     for i in cosmos_chains:
+        main_symbol = i["symbol"]
         time.sleep(0.1)
         if i["status"] != "live":
-            print(f"{i['symbol']} is {i['status']}!")
-            dead.append(i["symbol"])
+            print(f"{main_symbol} is {i['status']}!")
+            dead.append(main_symbol)
             continue
+        if "slip44" not in i:
+            print(f"Skipping {main_symbol} because it has no slip44")
+            continue
+        if validate_symbol(main_symbol) is False:
+            continue
+
+        print(f"Processing {main_symbol} ({i['name']})")
         # Using defaults for some values for now
         avg_blocktime = 7
         mm2 = 1
         wallet_only = True
-        main_symbol = i["symbol"]
-        print(f"Processing {main_symbol} ({i['name']})")
         chain_id = i["chain_id"]
-        if "slip44" not in i:
-            print(f"Skipping {main_symbol} because it has no slip44")
-            continue
         derivation_path = f"m/44'/{i['slip44']}'"
         chain_registry_name = i["name"]
         fname = i["pretty_name"]
@@ -73,23 +91,29 @@ def get_new_coins():
         # TODO: backfill from existing repo data for other price ids
         if "coingecko_id" not in i:
             gecko_id = ""
-            # gecko_info = None
         else:
             gecko_id = i["coingecko_id"]
-            # gecko_info = get_gecko_info(gecko_id)
 
         chain_data = get_cosmos_chain(chain_registry_name)
         if chain_data is None:
             print(f"Skipping {chain_registry_name} because there is no chain data")
             continue
 
+        if "fees" not in chain_data:
+            continue
+        if "fee_tokens" not in chain_data["fees"]:
+            continue
+        if len(chain_data["fees"]["fee_tokens"]) == 0:
+            continue
+        if "average_gas_price" not in chain_data["fees"]["fee_tokens"][0]:
+            continue
+        gas_price = chain_data["fees"]["fee_tokens"][0]["average_gas_price"]
+        
         if "coingecko_id" not in chain_data:
             print(f"{main_symbol} has no coingecko_id!")
             gecko_id = ""
-            # gecko_info = None
         elif gecko_id == "":
             gecko_id = chain_data["coingecko_id"]
-            # gecko_info = get_gecko_info(gecko_id)
 
         assets_data = get_cosmos_assets(chain_registry_name)
         if assets_data is None:
@@ -105,15 +129,6 @@ def get_new_coins():
                     if k["exponent"] != 0:
                         decimals = k["exponent"]
                         break
-            if "fees" not in chain_data:
-                continue
-            if "fee_tokens" not in chain_data["fees"]:
-                continue
-            if len(chain_data["fees"]["fee_tokens"]) == 0:
-                continue
-            if "average_gas_price" not in chain_data["fees"]["fee_tokens"][0]:
-                continue
-            gas_price = chain_data["fees"]["fee_tokens"][0]["average_gas_price"]
 
         try:
             new_coins_data.append(
@@ -153,13 +168,20 @@ def get_new_coins():
 
         for j in assets_data:
             symbol = j["symbol"]
-            ticker = f"{symbol}-IBC_{main_symbol}"
-            denom = j["base"]
+            if validate_symbol(symbol) is False:
+                continue
             if symbol in dead:
                 print(f"Skipping {ticker} because {symbol} is dead")
                 continue
+            ticker = f"{symbol}-IBC_{main_symbol}"
+            denom = j["base"]
 
             if symbol == main_symbol:
+                if symbol not in new_images:
+                    if "images" in j:
+                        if len(j["images"]) > 0:
+                            if "png" in j["images"][0]:
+                                new_images.update({symbol: j["images"][0]["png"]})
                 continue
             if "type_asset" not in j:
                 print(f"Skipping {ticker} because it has no type_asset")
@@ -202,11 +224,18 @@ def get_new_coins():
                     }
                 )
                 new_gecko_ids.update({ticker: gecko_id})
+                if symbol not in new_images:
+                    if "images" in j:
+                        if len(j["images"]) > 0:
+                            if "png" in j["images"][0]:
+                                new_images.update({symbol: j["images"][0]["png"]})
+                
             except Exception as e:
                 print(f"Error adding for {ticker} to new_coins_data: {e}")
                 continue
 
     with open("new_tendermint_coins.json", "w") as f:
+        new_coins_data = sorted(new_coins_data, key=lambda x: x['coin'])
         json.dump(new_coins_data, f, indent=4)
 
     print(f"Found {len(new_coins_data)} new coins")
@@ -275,6 +304,7 @@ def update_repo_data():
                     print(f"Updating {i['coin']} with proxy nodes")
                     print(servers)
                     servers['rpc_nodes'].append(proxy_nodes)
+                    servers['rpc_nodes'].sort(key=lambda x: x['url'])
                     with open(f"../tendermint/{i['coin']}", "w+") as f:
                         json.dump(servers, f, indent=4)
                         print(f"Updated {i['coin']} with proxy nodes")
@@ -290,7 +320,7 @@ def update_repo_data():
 
             if i['coin'] in new_explorers:
                 
-                explorers = list(set(explorers + new_explorers[i['coin']]))
+                explorers = sorted(list(set(explorers + new_explorers[i['coin']])))
                 with open(f"../explorers/{i['coin']}", "w+") as f:
                     json.dump(explorers, f, indent=4)
                     print(f"Updated {i['coin']} with explorer nodes")

@@ -1,11 +1,11 @@
 [
     "https://atomscan.com/iris-network",
-    "https://explorers.l0vd.com/iris-mainnet",
-    "https://irishub.iobscan.io/",
-    "https://ezstaking.app/irisnet",
-    "https://explorer.konsortech.xyz/iris",
-    "https://ping.pub/iris-network",
-    "https://www.mintscan.io/iris",
     "https://exp.nodeist.net/iris",
-    "https://stakeflow.io/irisnet"
+    "https://explorer.konsortech.xyz/iris",
+    "https://explorers.l0vd.com/iris-mainnet",
+    "https://ezstaking.app/irisnet",
+    "https://irishub.iobscan.io/",
+    "https://ping.pub/iris-network",
+    "https://stakeflow.io/irisnet",
+    "https://www.mintscan.io/iris"
 ]

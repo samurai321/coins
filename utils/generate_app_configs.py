@@ -715,6 +715,7 @@ def generate_binance_api_ids(coins_config):
                 api_ids.update({coin: ticker})
 
     with open(f"{repo_path}/api_ids/binance_ids.json", "w") as f:
+        api_ids = {k: v for k, v in sorted(api_ids.items(), key=lambda item: item[1])}
         json.dump(api_ids, f, indent=4)
 
     # To use for candlestick data, reference api_ids/binance_ids.json

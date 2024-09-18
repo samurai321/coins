@@ -1,10 +1,10 @@
 [
-    "https://exp.utsa.tech/aura",
-    "https://explorer.tcnetwork.io/aura",
-    "https://explorer.stake-take.com/aura",
     "https://aurascan.io",
+    "https://exp.utsa.tech/aura",
     "https://explorer.nodestake.top/aura",
-    "https://explorer.stakr.space/aura/",
     "https://explorer.safeblock.space/aura",
-    "https://explorer.stavr.tech/Aura-Mainnet"
+    "https://explorer.stake-take.com/aura",
+    "https://explorer.stakr.space/aura/",
+    "https://explorer.stavr.tech/Aura-Mainnet",
+    "https://explorer.tcnetwork.io/aura"
 ]

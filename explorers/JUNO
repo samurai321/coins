@@ -1,13 +1,13 @@
 [
-    "https://ping.pub/juno",
-    "https://ezstaking.app/juno",
-    "https://explorer.tcnetwork.io/juno",
-    "https://explorer.stavr.tech/juno",
-    "https://explorer.nodeshub.online/juno/",
-    "https://juno.explorers.guru",
-    "https://stakeflow.io/juno",
     "https://atomscan.com/juno",
-    "https://www.mintscan.io/juno",
     "https://explorer.declab.pro/Juno",
-    "https://mainnet.whispernode.com/juno"
+    "https://explorer.nodeshub.online/juno/",
+    "https://explorer.stavr.tech/juno",
+    "https://explorer.tcnetwork.io/juno",
+    "https://ezstaking.app/juno",
+    "https://juno.explorers.guru",
+    "https://mainnet.whispernode.com/juno",
+    "https://ping.pub/juno",
+    "https://stakeflow.io/juno",
+    "https://www.mintscan.io/juno"
 ]

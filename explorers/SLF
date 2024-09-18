@@ -1,8 +1,8 @@
 [
+    "https://exp.stakevillage.net/selfchain-mainnet",
+    "https://explorer.nodeshub.online/selfchain/",
+    "https://explorer.selfchain.xyz/selfchain",
     "https://explorer.stavr.tech/Selfchain-Mainnet",
     "https://explorer.tendermint.roomit.xyz/selfchain-mainnet",
-    "https://explorer.nodeshub.online/selfchain/",
-    "https://exp.stakevillage.net/selfchain-mainnet",
-    "https://explorer.whenmoonwhenlambo.money/self",
-    "https://explorer.selfchain.xyz/selfchain"
+    "https://explorer.whenmoonwhenlambo.money/self"
 ]

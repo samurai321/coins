@@ -1,11 +1,11 @@
 [
-    "https://www.mintscan.io/provenance",
-    "https://ping.pub/provenance",
+    "https://atomscan.com/provenance",
     "https://explorer.provenance.io",
     "https://explorer.stavr.tech/Provenance",
-    "https://mainnet.explorer.aviaone.com/provenance",
-    "https://atomscan.com/provenance",
-    "https://hubble.figment.io/provenance/chains/pio-mainnet-1",
+    "https://explorer.whenmoonwhenlambo.money/provenance",
     "https://ezstaking.app/provenance",
-    "https://explorer.whenmoonwhenlambo.money/provenance"
+    "https://hubble.figment.io/provenance/chains/pio-mainnet-1",
+    "https://mainnet.explorer.aviaone.com/provenance",
+    "https://ping.pub/provenance",
+    "https://www.mintscan.io/provenance"
 ]

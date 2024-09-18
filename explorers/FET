@@ -1,11 +1,11 @@
 [
-    "https://mainnet.explorer.aviaone.com/fetchhub",
     "https://atomscan.com/fetchai",
-    "https://ezstaking.app/fetchhub",
+    "https://explore-fetchhub.fetch.ai",
     "https://explorer.nodeshub.online/fetchhub/",
-    "https://www.mintscan.io/fetchai",
-    "https://ping.pub/fetchhub",
-    "https://fetchstation.azoyalabs.com/mainnet",
+    "https://ezstaking.app/fetchhub",
     "https://fetch-explorer.teasel.org",
-    "https://explore-fetchhub.fetch.ai"
+    "https://fetchstation.azoyalabs.com/mainnet",
+    "https://mainnet.explorer.aviaone.com/fetchhub",
+    "https://ping.pub/fetchhub",
+    "https://www.mintscan.io/fetchai"
 ]

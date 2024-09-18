@@ -1,8 +1,9 @@
 [
-    "https://explorer.blockval.io/oraichain",
-    "https://scan.orai.io",
-    "https://explorer.stavr.tech/Orai-Mainnet",
-    "https://explorer.co.id/orai",
     "https://atomscan.com/orai",
-    "https://explorer.konsortech.xyz/oraichain"
+    "https://explorer.blockval.io/oraichain",
+    "https://explorer.co.id/orai",
+    "https://explorer.imdev.app/oraichain",
+    "https://explorer.konsortech.xyz/oraichain",
+    "https://explorer.stavr.tech/Orai-Mainnet",
+    "https://scan.orai.io"
 ]

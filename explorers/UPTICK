@@ -1,10 +1,10 @@
 [
-    "https://upscan.xyz/",
-    "https://explorer.sr20de.xyz/uptick",
-    "https://explorers.brocha.in/uptick",
-    "https://explorer.bccnodes.com/uptick-M",
-    "https://explorer.nodestake.top/uptick",
     "https://cosmotracker.com/uptick",
     "https://exp.utsa.tech/uptick",
-    "https://explorer.stavr.tech/uptick-mainnet"
+    "https://explorer.bccnodes.com/uptick-M",
+    "https://explorer.nodestake.top/uptick",
+    "https://explorer.sr20de.xyz/uptick",
+    "https://explorer.stavr.tech/uptick-mainnet",
+    "https://explorers.brocha.in/uptick",
+    "https://upscan.xyz/"
 ]
