@@ -3990,7 +3990,8 @@
             }
         ],
         "token_address_url": "tokentxns?a=",
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "BAND"
     },
     "BAND-ERC20": {
         "coin": "BAND-ERC20",
@@ -4060,7 +4061,8 @@
                 }
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "BAND"
     },
     "BAND-FTM20": {
         "coin": "BAND-FTM20",
@@ -4114,7 +4116,8 @@
                 "ws_url": "wss://block-proxy.komodo.earth/rpc/ftm/websocket"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "BAND"
     },
     "BAND-PLG20": {
         "coin": "BAND-PLG20",
@@ -4166,7 +4169,8 @@
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "BAND"
     },
     "BAT-AVX20": {
         "coin": "BAT-AVX20",
@@ -16069,7 +16073,8 @@
                 }
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "FET"
     },
     "FET-BEP20": {
         "coin": "FET-BEP20",
@@ -16124,7 +16129,8 @@
             }
         ],
         "token_address_url": "tokentxns?a=",
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "FET"
     },
     "FET-PLG20": {
         "coin": "FET-PLG20",
@@ -16176,7 +16182,8 @@
                 "url": "https://electrum3.cipig.net:18755"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "FET"
     },
     "FIL-BEP20": {
         "coin": "FIL-BEP20",
@@ -22154,7 +22161,8 @@
             }
         ],
         "token_address_url": "tokentxns?a=",
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "INJ"
     },
     "INJ-ERC20": {
         "coin": "INJ-ERC20",
@@ -22223,7 +22231,8 @@
                 }
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "INJ"
     },
     "IOTA-BEP20": {
         "coin": "IOTA-BEP20",
@@ -26990,15 +26999,15 @@
                 "protocol": "SSL"
             },
             {
+                "url": "electrum7.getlynx.io:50002",
+                "protocol": "SSL"
+            },
+            {
                 "url": "electrum8.getlynx.io:50002",
                 "protocol": "SSL"
             },
             {
                 "url": "electrum9.getlynx.io:50002",
-                "protocol": "SSL"
-            },
-            {
-                "url": "electrum7.getlynx.io:50002",
                 "protocol": "SSL"
             },
             {
@@ -27010,15 +27019,15 @@
                 "protocol": "WSS"
             },
             {
+                "url": "electrum7.getlynx.io:50004",
+                "protocol": "WSS"
+            },
+            {
                 "url": "electrum8.getlynx.io:50004",
                 "protocol": "WSS"
             },
             {
                 "url": "electrum9.getlynx.io:50004",
-                "protocol": "WSS"
-            },
-            {
-                "url": "electrum7.getlynx.io:50004",
                 "protocol": "WSS"
             }
         ],
@@ -36152,7 +36161,8 @@
             }
         ],
         "token_address_url": "tokentxns?a=",
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "SCRT"
     },
     "SIGNA-BEP20": {
         "coin": "SIGNA-BEP20",
@@ -45879,7 +45889,7 @@
         "derivation_path": "m/44'/77'",
         "electrum": [
             {
-                "url": "88.99.26.209:5036",
+                "url": "electrum-verge.cloud:50001",
                 "protocol": "TCP"
             },
             {
@@ -45887,19 +45897,19 @@
                 "protocol": "TCP"
             },
             {
-                "url": "electrumx-verge.cloud:50002",
-                "protocol": "SSL"
-            },
-            {
                 "url": "electrum-verge.cloud:50002",
                 "protocol": "SSL"
             },
             {
-                "url": "electrumx-verge.cloud:50004",
-                "protocol": "WSS"
+                "url": "electrumx-verge.cloud:50002",
+                "protocol": "SSL"
             },
             {
                 "url": "electrum-verge.cloud:50004",
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrumx-verge.cloud:50004",
                 "protocol": "WSS"
             }
         ],
@@ -53049,7 +53059,8 @@
                 "api_url": "https://rest.cosmos.directory/axelar"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "AXL"
     },
     "BAND": {
         "coin": "BAND",
@@ -53087,7 +53098,8 @@
                 "api_url": "https://rest.cosmos.directory/bandchain"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "BAND"
     },
     "BZE": {
         "coin": "BZE",
@@ -53385,7 +53397,8 @@
                 "api_url": "https://rest.cosmos.directory/bluzelle"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "BLZ"
     },
     "BOOT": {
         "coin": "BOOT",
@@ -53607,7 +53620,8 @@
                 "api_url": "https://rest.cosmos.directory/carbon"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "LUNA"
     },
     "TIA-IBC_SWTH": {
         "coin": "TIA-IBC_SWTH",
@@ -53643,7 +53657,8 @@
                 "api_url": "https://rest.cosmos.directory/carbon"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "TIA"
     },
     "milkTIA-IBC_SWTH": {
         "coin": "milkTIA-IBC_SWTH",
@@ -54044,7 +54059,8 @@
                 "api_url": "https://rest.cosmos.directory/celestia"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "TIA"
     },
     "C4E": {
         "coin": "C4E",
@@ -56238,7 +56254,8 @@
                 "api_url": "https://rest.cosmos.directory/dydx"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "DYDX"
     },
     "USDC-IBC_DYDX": {
         "coin": "USDC-IBC_DYDX",
@@ -56312,7 +56329,8 @@
                 "api_url": "https://rest.cosmos.directory/dymension"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "DYM"
     },
     "NIM-IBC_DYM": {
         "coin": "NIM-IBC_DYM",
@@ -56794,7 +56812,8 @@
                 "api_url": "https://rest.cosmos.directory/fetchhub"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "FET"
     },
     "FNSA": {
         "coin": "FNSA",
@@ -57401,7 +57420,8 @@
                 "url": "https://rpc.cosmos.directory/injective",
                 "api_url": "https://rest.cosmos.directory/injective"
             }
-        ]
+        ],
+        "binance_id": "INJ"
     },
     "USDTkv-IBC_INJ": {
         "coin": "USDTkv-IBC_INJ",
@@ -58063,7 +58083,8 @@
                 "api_url": "https://rest.cosmos.directory/kava"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "KAVA"
     },
     "XKI": {
         "coin": "XKI",
@@ -59105,7 +59126,8 @@
                 "api_url": "https://rest.cosmos.directory/meme"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "MEME"
     },
     "PLQ-IBC_MEME": {
         "coin": "PLQ-IBC_MEME",
@@ -59658,7 +59680,8 @@
                 "api_url": "https://rest.cosmos.directory/neutron"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "NTRN"
     },
     "ATOM-IBC_NTRN": {
         "coin": "ATOM-IBC_NTRN",
@@ -59767,7 +59790,8 @@
                 "api_url": "https://rest.cosmos.directory/neutron"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "TIA"
     },
     "SAT-IBC_NTRN": {
         "coin": "SAT-IBC_NTRN",
@@ -59839,7 +59863,8 @@
                 "api_url": "https://rest.cosmos.directory/neutron"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "DYDX"
     },
     "ASTRO.cw20-IBC_NTRN": {
         "coin": "ASTRO.cw20-IBC_NTRN",
@@ -60572,7 +60597,8 @@
                 "api_url": "https://rest.cosmos.directory/nolus"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "AXL"
     },
     "JUNO-IBC_NLS": {
         "coin": "JUNO-IBC_NLS",
@@ -60716,7 +60742,8 @@
                 "api_url": "https://rest.cosmos.directory/nolus"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "SCRT"
     },
     "CRO-IBC_NLS": {
         "coin": "CRO-IBC_NLS",
@@ -60824,7 +60851,8 @@
                 "api_url": "https://rest.cosmos.directory/nolus"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "TIA"
     },
     "STRD-IBC_NLS": {
         "coin": "STRD-IBC_NLS",
@@ -60932,7 +60960,8 @@
                 "api_url": "https://rest.cosmos.directory/nolus"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "NTRN"
     },
     "DYDX-IBC_NLS": {
         "coin": "DYDX-IBC_NLS",
@@ -60968,7 +60997,8 @@
                 "api_url": "https://rest.cosmos.directory/nolus"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "DYDX"
     },
     "dATOM-IBC_NLS": {
         "coin": "dATOM-IBC_NLS",
@@ -61524,7 +61554,8 @@
                 "api_url": "https://rest.cosmos.directory/oraichain"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "INJ"
     },
     "OSMO": {
         "coin": "OSMO",
@@ -62194,7 +62225,8 @@
                 "api_url": "https://rest.cosmos.directory/osmosis"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "LUNC"
     },
     "JUNO-IBC_OSMO": {
         "coin": "JUNO-IBC_OSMO",
@@ -62398,7 +62430,8 @@
                 "api_url": "https://rest.cosmos.directory/osmosis"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "KAVA"
     },
     "SCRT-IBC_OSMO": {
         "coin": "SCRT-IBC_OSMO",
@@ -62449,7 +62482,8 @@
                 "api_url": "https://rest.cosmos.directory/osmosis"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "SCRT"
     },
     "USTC-IBC_OSMO": {
         "coin": "USTC-IBC_OSMO",
@@ -63827,7 +63861,8 @@
                 "api_url": "https://rest.cosmos.directory/osmosis"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "BAND"
     },
     "DARC-IBC_OSMO": {
         "coin": "DARC-IBC_OSMO",
@@ -64184,7 +64219,8 @@
                 "api_url": "https://rest.cosmos.directory/osmosis"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "FET"
     },
     "MNTL-IBC_OSMO": {
         "coin": "MNTL-IBC_OSMO",
@@ -64337,7 +64373,8 @@
                 "api_url": "https://rest.cosmos.directory/osmosis"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "INJ"
     },
     "KRTC-IBC_OSMO": {
         "coin": "KRTC-IBC_OSMO",
@@ -64490,7 +64527,8 @@
                 "api_url": "https://rest.cosmos.directory/osmosis"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "CTK"
     },
     "HOPE-IBC_OSMO": {
         "coin": "HOPE-IBC_OSMO",
@@ -65204,7 +65242,8 @@
                 "api_url": "https://rest.cosmos.directory/osmosis"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "MEME"
     },
     "ASVT-IBC_OSMO": {
         "coin": "ASVT-IBC_OSMO",
@@ -65357,7 +65396,8 @@
                 "api_url": "https://rest.cosmos.directory/osmosis"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "LUNA"
     },
     "ATOLO-IBC_OSMO": {
         "coin": "ATOLO-IBC_OSMO",
@@ -67041,7 +67081,8 @@
                 "api_url": "https://rest.cosmos.directory/osmosis"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "AXL"
     },
     "REBUS-IBC_OSMO": {
         "coin": "REBUS-IBC_OSMO",
@@ -70612,7 +70653,8 @@
                 "api_url": "https://rest.cosmos.directory/osmosis"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "BLZ"
     },
     "ARB.axl-IBC_OSMO": {
         "coin": "ARB.axl-IBC_OSMO",
@@ -71377,7 +71419,8 @@
                 "api_url": "https://rest.cosmos.directory/osmosis"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "NTRN"
     },
     "CASA-IBC_OSMO": {
         "coin": "CASA-IBC_OSMO",
@@ -71938,7 +71981,8 @@
                 "api_url": "https://rest.cosmos.directory/osmosis"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "SEI"
     },
     "qSOMM-IBC_OSMO": {
         "coin": "qSOMM-IBC_OSMO",
@@ -72958,7 +73002,8 @@
                 "api_url": "https://rest.cosmos.directory/osmosis"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "FIS"
     },
     "rATOM-IBC_OSMO": {
         "coin": "rATOM-IBC_OSMO",
@@ -73213,7 +73258,8 @@
                 "api_url": "https://rest.cosmos.directory/osmosis"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "TIA"
     },
     "DYDX-IBC_OSMO": {
         "coin": "DYDX-IBC_OSMO",
@@ -73264,7 +73310,8 @@
                 "api_url": "https://rest.cosmos.directory/osmosis"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "DYDX"
     },
     "FX-IBC_OSMO": {
         "coin": "FX-IBC_OSMO",
@@ -75355,7 +75402,8 @@
                 "api_url": "https://rest.cosmos.directory/osmosis"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "DYM"
     },
     "ASTRO.terra-IBC_OSMO": {
         "coin": "ASTRO.terra-IBC_OSMO",
@@ -76426,7 +76474,8 @@
                 "api_url": "https://rest.cosmos.directory/osmosis"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "PUNDIX"
     },
     "TNKR-IBC_OSMO": {
         "coin": "TNKR-IBC_OSMO",
@@ -76681,7 +76730,8 @@
                 "api_url": "https://rest.cosmos.directory/osmosis"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "SAGA"
     },
     "ATOM1KLFG-IBC_OSMO": {
         "coin": "ATOM1KLFG-IBC_OSMO",
@@ -80329,7 +80379,8 @@
                 "api_url": "https://rest.cosmos.directory/persistence"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "DYDX"
     },
     "STARS-IBC_XPRT": {
         "coin": "STARS-IBC_XPRT",
@@ -80547,7 +80598,8 @@
                 "api_url": "https://rest.cosmos.directory/planq"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "MEME"
     },
     "POINT": {
         "coin": "POINT",
@@ -80734,7 +80786,8 @@
                 "api_url": "https://rest.cosmos.directory/pryzm"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "INJ"
     },
     "OSMO-IBC_PRYZM": {
         "coin": "OSMO-IBC_PRYZM",
@@ -80807,7 +80860,8 @@
                 "api_url": "https://rest.cosmos.directory/pryzm"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "TIA"
     },
     "LUNA-IBC_PRYZM": {
         "coin": "LUNA-IBC_PRYZM",
@@ -80843,7 +80897,8 @@
                 "api_url": "https://rest.cosmos.directory/pryzm"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "LUNA"
     },
     "USDC-IBC_PRYZM": {
         "coin": "USDC-IBC_PRYZM",
@@ -80951,7 +81006,8 @@
                 "api_url": "https://rest.cosmos.directory/pryzm"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "DYDX"
     },
     "stTIA-IBC_PRYZM": {
         "coin": "stTIA-IBC_PRYZM",
@@ -81097,7 +81153,8 @@
                 "api_url": "https://rest.cosmos.directory/pundix"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "PUNDIX"
     },
     "ROCK": {
         "coin": "ROCK",
@@ -81661,7 +81718,8 @@
                 "api_url": "https://rest.cosmos.directory/saga"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "SAGA"
     },
     "SCR": {
         "coin": "SCR",
@@ -81737,7 +81795,8 @@
                 "api_url": "https://rest.cosmos.directory/secretnetwork"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "SCRT"
     },
     "SEDA": {
         "coin": "SEDA",
@@ -81813,7 +81872,8 @@
                 "api_url": "https://rest.cosmos.directory/sei"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "SEI"
     },
     "WOSMO-IBC_SEI": {
         "coin": "WOSMO-IBC_SEI",
@@ -81923,7 +81983,8 @@
                 "api_url": "https://rest.cosmos.directory/self"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "SLF"
     },
     "DVPN": {
         "coin": "DVPN",
@@ -82075,7 +82136,8 @@
                 "api_url": "https://rest.cosmos.directory/shentu"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "CTK"
     },
     "SHIDO": {
         "coin": "SHIDO",
@@ -82339,7 +82401,8 @@
                 "api_url": "https://rest.cosmos.directory/stafihub"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "FIS"
     },
     "STARS": {
         "coin": "STARS",
@@ -82707,7 +82770,8 @@
                 "api_url": "https://rest.cosmos.directory/stride"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "TIA"
     },
     "TTNC": {
         "coin": "TTNC",
@@ -83003,7 +83067,8 @@
                 "api_url": "https://rest.cosmos.directory/teritori"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "SCRT"
     },
     "LUNC": {
         "coin": "LUNC",
@@ -83041,7 +83106,8 @@
                 "api_url": "https://rest.cosmos.directory/terra"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "LUNC"
     },
     "LUNA": {
         "coin": "LUNA",
@@ -83079,7 +83145,8 @@
                 "api_url": "https://rest.cosmos.directory/terra2"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "LUNA"
     },
     "ASTRO-IBC_LUNA": {
         "coin": "ASTRO-IBC_LUNA",
@@ -83407,7 +83474,8 @@
                 "api_url": "https://rest.cosmos.directory/thorchain"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "RUNE"
     },
     "TKX": {
         "coin": "TKX",
