@@ -93,6 +93,7 @@ with open(f"{script_path}/electrum_scan_report.json", "r") as f:
 
 with open(f"{repo_path}/explorers/explorer_paths.json", "r") as f:
     explorer_paths = json.load(f)
+    PREFERRED_EXPLORERS = explorer_paths.keys()
 
 with open(f"{repo_path}/api_ids/forex_ids.json", "r") as f:
     forex_ids = json.load(f)
@@ -499,10 +500,16 @@ class CoinConfig:
                 explorers = json.load(f)
 
         if explorers:
+            explorer = explorers[0]
             for x in explorers:
                 for p in explorer_paths:
                     if x.find(p) > -1:
                         self.data[self.ticker].update(explorer_paths[p])
+                        break
+
+                for px in PREFERRED_EXPLORERS:
+                    if px in explorer:
+                        explorer = x
                         break
 
             self.data[self.ticker].update({"explorer_url": explorers[0]})
