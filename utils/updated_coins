@@ -16786,6 +16786,237 @@
         }
     },
     {
+        "coin": "ASTRO-IBC_SEI",
+        "name": "astro-ibc_sei",
+        "fname": "Sei",
+        "avg_blocktime": 7,
+        "mm2": 1,
+        "wallet_only": true,
+        "protocol": {
+            "type": "TENDERMINTTOKEN",
+            "protocol_data": {
+                "platform": "SEI",
+                "decimals": 6,
+                "denom": "ibc/063F4461F7317CFF10F50AB044E44932D22AAD84FA7107082744946E6DB7B7A8",
+                "gas_price": 0.02
+            }
+        }
+    },
+    {
+        "coin": "BCP",
+        "avg_blocktime": 7,
+        "name": "bluechip",
+        "fname": "BlueChip",
+        "mm2": 1,
+        "wallet_only": true,
+        "protocol": {
+            "type": "TENDERMINT",
+            "protocol_data": {
+                "decimals": 6,
+                "denom": "ubluechip",
+                "account_prefix": "bcp",
+                "chain_registry_name": "bluechip",
+                "chain_id": "bluechip-2",
+                "gas_price": 0.025
+            }
+        },
+        "derivation_path": "m/44'/118'"
+    },
+    {
+        "coin": "CVN",
+        "avg_blocktime": 7,
+        "name": "conscious",
+        "fname": "ConsciousDAO",
+        "mm2": 1,
+        "wallet_only": true,
+        "protocol": {
+            "type": "TENDERMINT",
+            "protocol_data": {
+                "decimals": 18,
+                "denom": "acvnt",
+                "account_prefix": "cvn",
+                "chain_registry_name": "conscious",
+                "chain_id": "cvn_2032-1",
+                "gas_price": 200000000
+            }
+        },
+        "derivation_path": "m/44'/60'"
+    },
+    {
+        "coin": "DORA",
+        "avg_blocktime": 7,
+        "name": "doravota",
+        "fname": "Dora Vota",
+        "mm2": 1,
+        "wallet_only": true,
+        "protocol": {
+            "type": "TENDERMINT",
+            "protocol_data": {
+                "decimals": 18,
+                "denom": "peaka",
+                "account_prefix": "dora",
+                "chain_registry_name": "doravota",
+                "chain_id": "vota-ash",
+                "gas_price": 100000000000
+            }
+        },
+        "derivation_path": "m/44'/118'"
+    },
+    {
+        "coin": "FCT",
+        "avg_blocktime": 7,
+        "name": "firmachain",
+        "fname": "FIRMACHAIN",
+        "mm2": 1,
+        "wallet_only": true,
+        "protocol": {
+            "type": "TENDERMINT",
+            "protocol_data": {
+                "decimals": 6,
+                "denom": "ufct",
+                "account_prefix": "firma",
+                "chain_registry_name": "firmachain",
+                "chain_id": "colosseum-1",
+                "gas_price": 0.15
+            }
+        },
+        "derivation_path": "m/44'/7777777'"
+    },
+    {
+        "coin": "JKL",
+        "avg_blocktime": 7,
+        "name": "jackal",
+        "fname": "Jackal",
+        "mm2": 1,
+        "wallet_only": true,
+        "protocol": {
+            "type": "TENDERMINT",
+            "protocol_data": {
+                "decimals": 6,
+                "denom": "ujkl",
+                "account_prefix": "jkl",
+                "chain_registry_name": "jackal",
+                "chain_id": "jackal-1",
+                "gas_price": 0.002
+            }
+        },
+        "derivation_path": "m/44'/118'"
+    },
+    {
+        "coin": "LRZ",
+        "avg_blocktime": 7,
+        "name": "lorenzo",
+        "fname": "Lorenzo Protocol",
+        "mm2": 1,
+        "wallet_only": true,
+        "protocol": {
+            "type": "TENDERMINT",
+            "protocol_data": {
+                "decimals": 18,
+                "denom": "alrz",
+                "account_prefix": "lrz",
+                "chain_registry_name": "lorenzo",
+                "chain_id": "lorenzo_8329-1",
+                "gas_price": 2000000
+            }
+        },
+        "derivation_path": "m/44'/60'"
+    },
+    {
+        "coin": "QCK",
+        "avg_blocktime": 7,
+        "name": "quicksilver",
+        "fname": "Quicksilver",
+        "mm2": 1,
+        "wallet_only": true,
+        "protocol": {
+            "type": "TENDERMINT",
+            "protocol_data": {
+                "decimals": 6,
+                "denom": "uqck",
+                "account_prefix": "quick",
+                "chain_registry_name": "quicksilver",
+                "chain_id": "quicksilver-2",
+                "gas_price": 0.0001
+            }
+        },
+        "derivation_path": "m/44'/118'"
+    },
+    {
+        "coin": "SEI",
+        "avg_blocktime": 7,
+        "name": "sei",
+        "fname": "Sei",
+        "mm2": 1,
+        "wallet_only": true,
+        "protocol": {
+            "type": "TENDERMINT",
+            "protocol_data": {
+                "decimals": 6,
+                "denom": "usei",
+                "account_prefix": "sei",
+                "chain_registry_name": "sei",
+                "chain_id": "pacific-1",
+                "gas_price": 0.02
+            }
+        },
+        "derivation_path": "m/44'/118'"
+    },
+    {
+        "coin": "TIA",
+        "avg_blocktime": 7,
+        "name": "celestia",
+        "fname": "Celestia",
+        "mm2": 1,
+        "wallet_only": true,
+        "protocol": {
+            "type": "TENDERMINT",
+            "protocol_data": {
+                "decimals": 6,
+                "denom": "utia",
+                "account_prefix": "celestia",
+                "chain_registry_name": "celestia",
+                "chain_id": "celestia",
+                "gas_price": 0.02
+            }
+        },
+        "derivation_path": "m/44'/118'"
+    },
+    {
+        "coin": "USDC-IBC_QCK",
+        "name": "usdc-ibc_qck",
+        "fname": "Quicksilver",
+        "avg_blocktime": 7,
+        "mm2": 1,
+        "wallet_only": true,
+        "protocol": {
+            "type": "TENDERMINTTOKEN",
+            "protocol_data": {
+                "platform": "QCK",
+                "decimals": 6,
+                "denom": "ibc/5666A86DCC869C75F69A7938AD6DCFECAC4A09C73522599E7A85B10143E5FBD2",
+                "gas_price": 0.0001
+            }
+        }
+    },
+    {
+        "coin": "WOSMO-IBC_SEI",
+        "name": "wosmo-ibc_sei",
+        "fname": "Sei",
+        "avg_blocktime": 7,
+        "mm2": 1,
+        "wallet_only": true,
+        "protocol": {
+            "type": "TENDERMINTTOKEN",
+            "protocol_data": {
+                "platform": "SEI",
+                "decimals": 6,
+                "denom": "ibc/B023C57727A38A9CF87238F9008477C3761AD4774D528BFA458DD707D90B553A",
+                "gas_price": 0.02
+            }
+        }
+    },
+    {
         "coin": "404DR-IBC_OSMO",
         "name": "404dr-ibc_osmo",
         "fname": "404Deep Records Fantoken",
@@ -16967,7 +17198,7 @@
     {
         "coin": "AKT-IBC_NLS",
         "name": "akt-ibc_nls",
-        "fname": "AKT",
+        "fname": "Akash",
         "avg_blocktime": 7,
         "mm2": 1,
         "wallet_only": true,
@@ -17300,23 +17531,6 @@
         }
     },
     {
-        "coin": "ASTRO-IBC_SEI",
-        "name": "astro-ibc_sei",
-        "fname": "Astroport token",
-        "avg_blocktime": 7,
-        "mm2": 1,
-        "wallet_only": true,
-        "protocol": {
-            "type": "TENDERMINTTOKEN",
-            "protocol_data": {
-                "platform": "SEI",
-                "decimals": 6,
-                "denom": "ibc/063F4461F7317CFF10F50AB044E44932D22AAD84FA7107082744946E6DB7B7A8",
-                "gas_price": 0.02
-            }
-        }
-    },
-    {
         "coin": "ASTRO-IBC_STARS",
         "name": "astro-ibc_stars",
         "fname": "Astroport token",
@@ -17410,7 +17624,7 @@
     {
         "coin": "ATOM-IBC_FLIX",
         "name": "atom-ibc_flix",
-        "fname": "Cosmos Hub Atom",
+        "fname": "Cosmos Hub",
         "avg_blocktime": 7,
         "mm2": 1,
         "wallet_only": true,
@@ -17444,7 +17658,7 @@
     {
         "coin": "ATOM-IBC_JUNO",
         "name": "atom-ibc_juno",
-        "fname": "ATOM on Juno",
+        "fname": "Cosmos Hub",
         "avg_blocktime": 7,
         "mm2": 1,
         "wallet_only": true,
@@ -17461,7 +17675,7 @@
     {
         "coin": "ATOM-IBC_KUJI",
         "name": "atom-ibc_kuji",
-        "fname": "Cosmos Hub Atom",
+        "fname": "Cosmos Hub",
         "avg_blocktime": 7,
         "mm2": 1,
         "wallet_only": true,
@@ -17478,7 +17692,7 @@
     {
         "coin": "ATOM-IBC_NLS",
         "name": "atom-ibc_nls",
-        "fname": "Atom",
+        "fname": "Cosmos Hub",
         "avg_blocktime": 7,
         "mm2": 1,
         "wallet_only": true,
@@ -17495,7 +17709,7 @@
     {
         "coin": "ATOM-IBC_NTRN",
         "name": "atom-ibc_ntrn",
-        "fname": "IBC atom",
+        "fname": "Cosmos Hub",
         "avg_blocktime": 7,
         "mm2": 1,
         "wallet_only": true,
@@ -17529,7 +17743,7 @@
     {
         "coin": "ATOM-IBC_PRYZM",
         "name": "atom-ibc_pryzm",
-        "fname": "Atom",
+        "fname": "Cosmos Hub",
         "avg_blocktime": 7,
         "mm2": 1,
         "wallet_only": true,
@@ -17546,7 +17760,7 @@
     {
         "coin": "ATOM-IBC_QSR",
         "name": "atom-ibc_qsr",
-        "fname": "Atom",
+        "fname": "Cosmos Hub",
         "avg_blocktime": 7,
         "mm2": 1,
         "wallet_only": true,
@@ -17563,7 +17777,7 @@
     {
         "coin": "ATOM-IBC_STAKE",
         "name": "atom-ibc_stake",
-        "fname": "Atom Staking Coin",
+        "fname": "Cosmos Hub",
         "avg_blocktime": 7,
         "mm2": 1,
         "wallet_only": true,
@@ -17580,7 +17794,7 @@
     {
         "coin": "ATOM-IBC_SWTH",
         "name": "atom-ibc_swth",
-        "fname": "Cosmos",
+        "fname": "Cosmos Hub",
         "avg_blocktime": 7,
         "mm2": 1,
         "wallet_only": true,
@@ -17597,7 +17811,7 @@
     {
         "coin": "ATOM-IBC_TORI",
         "name": "atom-ibc_tori",
-        "fname": "Cosmos Hub Atom",
+        "fname": "Cosmos Hub",
         "avg_blocktime": 7,
         "mm2": 1,
         "wallet_only": true,
@@ -17614,7 +17828,7 @@
     {
         "coin": "ATOM-IBC_XPRT",
         "name": "atom-ibc_xprt",
-        "fname": "Cosmos Hub Atom",
+        "fname": "Cosmos Hub",
         "avg_blocktime": 7,
         "mm2": 1,
         "wallet_only": true,
@@ -17700,9 +17914,29 @@
         }
     },
     {
+        "coin": "AXL",
+        "avg_blocktime": 7,
+        "name": "axelar",
+        "fname": "Axelar",
+        "mm2": 1,
+        "wallet_only": true,
+        "protocol": {
+            "type": "TENDERMINT",
+            "protocol_data": {
+                "decimals": 6,
+                "denom": "uaxl",
+                "account_prefix": "axelar",
+                "chain_registry_name": "axelar",
+                "chain_id": "axelar-dojo-1",
+                "gas_price": 0.007
+            }
+        },
+        "derivation_path": "m/44'/118'"
+    },
+    {
         "coin": "AXL-IBC_NLS",
         "name": "axl-ibc_nls",
-        "fname": "AXL",
+        "fname": "Axelar",
         "avg_blocktime": 7,
         "mm2": 1,
         "wallet_only": true,
@@ -17874,26 +18108,6 @@
                 "gas_price": 0.025
             }
         }
-    },
-    {
-        "coin": "BCP",
-        "avg_blocktime": 7,
-        "name": "bluechip",
-        "fname": "BlueChip",
-        "mm2": 1,
-        "wallet_only": true,
-        "protocol": {
-            "type": "TENDERMINT",
-            "protocol_data": {
-                "decimals": 6,
-                "denom": "ubluechip",
-                "account_prefix": "bcp",
-                "chain_registry_name": "bluechip",
-                "chain_id": "bluechip-2",
-                "gas_price": 0.025
-            }
-        },
-        "derivation_path": "m/44'/118'"
     },
     {
         "coin": "BEAST-IBC_OSMO",
@@ -18158,6 +18372,26 @@
                 "gas_price": 0.025
             }
         }
+    },
+    {
+        "coin": "BTSG",
+        "avg_blocktime": 7,
+        "name": "bitsong",
+        "fname": "BitSong",
+        "mm2": 1,
+        "wallet_only": true,
+        "protocol": {
+            "type": "TENDERMINT",
+            "protocol_data": {
+                "decimals": 6,
+                "denom": "ubtsg",
+                "account_prefix": "bitsong",
+                "chain_registry_name": "bitsong",
+                "chain_id": "bitsong-2b",
+                "gas_price": 10
+            }
+        },
+        "derivation_path": "m/44'/639'"
     },
     {
         "coin": "BTSG-IBC_OSMO",
@@ -18734,9 +18968,29 @@
         }
     },
     {
+        "coin": "CRO",
+        "avg_blocktime": 7,
+        "name": "cryptoorgchain",
+        "fname": "Cronos POS Chain",
+        "mm2": 1,
+        "wallet_only": true,
+        "protocol": {
+            "type": "TENDERMINT",
+            "protocol_data": {
+                "decimals": 8,
+                "denom": "basecro",
+                "account_prefix": "cro",
+                "chain_registry_name": "cryptoorgchain",
+                "chain_id": "crypto-org-chain-mainnet-1",
+                "gas_price": 0.03
+            }
+        },
+        "derivation_path": "m/44'/394'"
+    },
+    {
         "coin": "CRO-IBC_NLS",
         "name": "cro-ibc_nls",
-        "fname": "CRO",
+        "fname": "Cronos POS Chain",
         "avg_blocktime": 7,
         "mm2": 1,
         "wallet_only": true,
@@ -18878,7 +19132,7 @@
     {
         "coin": "CUDOS-IBC_NLS",
         "name": "cudos-ibc_nls",
-        "fname": "CUDOS",
+        "fname": "Cudos",
         "avg_blocktime": 7,
         "mm2": 1,
         "wallet_only": true,
@@ -18908,26 +19162,6 @@
                 "gas_price": 0.025
             }
         }
-    },
-    {
-        "coin": "CVN",
-        "avg_blocktime": 7,
-        "name": "conscious",
-        "fname": "ConsciousDAO",
-        "mm2": 1,
-        "wallet_only": true,
-        "protocol": {
-            "type": "TENDERMINT",
-            "protocol_data": {
-                "decimals": 18,
-                "denom": "acvnt",
-                "account_prefix": "cvn",
-                "chain_registry_name": "conscious",
-                "chain_id": "cvn_2032-1",
-                "gas_price": 200000000
-            }
-        },
-        "derivation_path": "m/44'/60'"
     },
     {
         "coin": "CVN-IBC_OSMO",
@@ -19231,26 +19465,6 @@
         }
     },
     {
-        "coin": "DORA",
-        "avg_blocktime": 7,
-        "name": "doravota",
-        "fname": "Dora Vota",
-        "mm2": 1,
-        "wallet_only": true,
-        "protocol": {
-            "type": "TENDERMINT",
-            "protocol_data": {
-                "decimals": 18,
-                "denom": "peaka",
-                "account_prefix": "dora",
-                "chain_registry_name": "doravota",
-                "chain_id": "vota-ash",
-                "gas_price": 100000000000
-            }
-        },
-        "derivation_path": "m/44'/118'"
-    },
-    {
         "coin": "DORA-IBC_OSMO",
         "name": "dora-ibc_osmo",
         "fname": "Dora Vota",
@@ -19381,7 +19595,7 @@
     {
         "coin": "DYDX-IBC_NLS",
         "name": "dydx-ibc_nls",
-        "fname": "DYDX",
+        "fname": "dYdX Protocol",
         "avg_blocktime": 7,
         "mm2": 1,
         "wallet_only": true,
@@ -19398,7 +19612,7 @@
     {
         "coin": "DYDX-IBC_NTRN",
         "name": "dydx-ibc_ntrn",
-        "fname": "DYDX",
+        "fname": "dYdX Protocol",
         "avg_blocktime": 7,
         "mm2": 1,
         "wallet_only": true,
@@ -19432,7 +19646,7 @@
     {
         "coin": "DYDX-IBC_PRYZM",
         "name": "dydx-ibc_pryzm",
-        "fname": "dYdX",
+        "fname": "dYdX Protocol",
         "avg_blocktime": 7,
         "mm2": 1,
         "wallet_only": true,
@@ -19449,7 +19663,7 @@
     {
         "coin": "DYDX-IBC_XPRT",
         "name": "dydx-ibc_xprt",
-        "fname": "dYdX",
+        "fname": "dYdX Protocol",
         "avg_blocktime": 7,
         "mm2": 1,
         "wallet_only": true,
@@ -19499,6 +19713,26 @@
                 "gas_price": 0.025
             }
         }
+    },
+    {
+        "coin": "DYS",
+        "avg_blocktime": 7,
+        "name": "dyson",
+        "fname": "Dyson Protocol",
+        "mm2": 1,
+        "wallet_only": true,
+        "protocol": {
+            "type": "TENDERMINT",
+            "protocol_data": {
+                "decimals": 18,
+                "denom": "dys",
+                "account_prefix": "dys",
+                "chain_registry_name": "dyson",
+                "chain_id": "dyson-mainnet-01",
+                "gas_price": 0.0002
+            }
+        },
+        "derivation_path": "m/44'/118'"
     },
     {
         "coin": "DYS-IBC_OSMO",
@@ -19628,7 +19862,7 @@
     {
         "coin": "EVMOS-IBC_NLS",
         "name": "evmos-ibc_nls",
-        "fname": "EVMOS",
+        "fname": "Evmos",
         "avg_blocktime": 7,
         "mm2": 1,
         "wallet_only": true,
@@ -19675,26 +19909,6 @@
                 "gas_price": 1
             }
         }
-    },
-    {
-        "coin": "FCT",
-        "avg_blocktime": 7,
-        "name": "firmachain",
-        "fname": "FIRMACHAIN",
-        "mm2": 1,
-        "wallet_only": true,
-        "protocol": {
-            "type": "TENDERMINT",
-            "protocol_data": {
-                "decimals": 6,
-                "denom": "ufct",
-                "account_prefix": "firma",
-                "chain_registry_name": "firmachain",
-                "chain_id": "colosseum-1",
-                "gas_price": 0.15
-            }
-        },
-        "derivation_path": "m/44'/7777777'"
     },
     {
         "coin": "FCT-IBC_OSMO",
@@ -20043,7 +20257,7 @@
     {
         "coin": "FURY-IBC_OSMO",
         "name": "fury-ibc_osmo",
-        "fname": "furya",
+        "fname": "Highbury",
         "avg_blocktime": 7,
         "mm2": 1,
         "wallet_only": true,
@@ -20060,7 +20274,7 @@
     {
         "coin": "FURY-IBC_OSMO",
         "name": "fury-ibc_osmo",
-        "fname": "furya",
+        "fname": "Highbury",
         "avg_blocktime": 7,
         "mm2": 1,
         "wallet_only": true,
@@ -20097,7 +20311,7 @@
     {
         "coin": "FX-IBC_ATOM",
         "name": "fx-ibc_atom",
-        "fname": "Function X",
+        "fname": "f(x)Core",
         "avg_blocktime": 7,
         "mm2": 1,
         "wallet_only": true,
@@ -20847,7 +21061,7 @@
     {
         "coin": "IRIS-IBC_SWTH",
         "name": "iris-ibc_swth",
-        "fname": "IRIS Hub Staking Coin",
+        "fname": "IRISnet",
         "avg_blocktime": 7,
         "mm2": 1,
         "wallet_only": true,
@@ -20987,26 +21201,6 @@
         }
     },
     {
-        "coin": "JKL",
-        "avg_blocktime": 7,
-        "name": "jackal",
-        "fname": "Jackal",
-        "mm2": 1,
-        "wallet_only": true,
-        "protocol": {
-            "type": "TENDERMINT",
-            "protocol_data": {
-                "decimals": 6,
-                "denom": "ujkl",
-                "account_prefix": "jkl",
-                "chain_registry_name": "jackal",
-                "chain_id": "jackal-1",
-                "gas_price": 0.002
-            }
-        },
-        "derivation_path": "m/44'/118'"
-    },
-    {
         "coin": "JKL-IBC_OSMO",
         "name": "jkl-ibc_osmo",
         "fname": "Jackal",
@@ -21083,7 +21277,7 @@
     {
         "coin": "JUNO-IBC_NLS",
         "name": "juno-ibc_nls",
-        "fname": "JUNO",
+        "fname": "Juno",
         "avg_blocktime": 7,
         "mm2": 1,
         "wallet_only": true,
@@ -21113,6 +21307,26 @@
                 "gas_price": 0.025
             }
         }
+    },
+    {
+        "coin": "KAVA",
+        "avg_blocktime": 7,
+        "name": "kava",
+        "fname": "Kava",
+        "mm2": 1,
+        "wallet_only": true,
+        "protocol": {
+            "type": "TENDERMINT",
+            "protocol_data": {
+                "decimals": 6,
+                "denom": "ukava",
+                "account_prefix": "kava",
+                "chain_registry_name": "kava",
+                "chain_id": "kava_2222-10",
+                "gas_price": 0.1
+            }
+        },
+        "derivation_path": "m/44'/459'"
     },
     {
         "coin": "KAVA-IBC_OSMO",
@@ -21527,26 +21741,6 @@
         }
     },
     {
-        "coin": "LRZ",
-        "avg_blocktime": 7,
-        "name": "lorenzo",
-        "fname": "Lorenzo Protocol",
-        "mm2": 1,
-        "wallet_only": true,
-        "protocol": {
-            "type": "TENDERMINT",
-            "protocol_data": {
-                "decimals": 18,
-                "denom": "alrz",
-                "account_prefix": "lrz",
-                "chain_registry_name": "lorenzo",
-                "chain_id": "lorenzo_8329-1",
-                "gas_price": 2000000
-            }
-        },
-        "derivation_path": "m/44'/60'"
-    },
-    {
         "coin": "LST-IBC_PICA",
         "name": "lst-ibc_pica",
         "fname": "Liquid Staking Token",
@@ -21623,7 +21817,7 @@
     {
         "coin": "LUNA-IBC_OSMO",
         "name": "luna-ibc_osmo",
-        "fname": "Luna",
+        "fname": "Terra",
         "avg_blocktime": 7,
         "mm2": 1,
         "wallet_only": true,
@@ -21640,7 +21834,7 @@
     {
         "coin": "LUNA-IBC_PRYZM",
         "name": "luna-ibc_pryzm",
-        "fname": "Luna",
+        "fname": "Terra",
         "avg_blocktime": 7,
         "mm2": 1,
         "wallet_only": true,
@@ -21657,7 +21851,7 @@
     {
         "coin": "LUNA-IBC_SWTH",
         "name": "luna-ibc_swth",
-        "fname": "Terra Staking Coin",
+        "fname": "Terra",
         "avg_blocktime": 7,
         "mm2": 1,
         "wallet_only": true,
@@ -21694,7 +21888,7 @@
     {
         "coin": "LUNC-IBC_OSMO",
         "name": "lunc-ibc_osmo",
-        "fname": "Luna Classic",
+        "fname": "Terra Classic",
         "avg_blocktime": 7,
         "mm2": 1,
         "wallet_only": true,
@@ -22387,7 +22581,7 @@
     {
         "coin": "NINJA-IBC_OSMO",
         "name": "ninja-ibc_osmo",
-        "fname": "Dog wif nunchucks",
+        "fname": "Ninja",
         "avg_blocktime": 7,
         "mm2": 1,
         "wallet_only": true,
@@ -22424,7 +22618,7 @@
     {
         "coin": "NLS-IBC_NTRN",
         "name": "nls-ibc_ntrn",
-        "fname": "Nolus NLS",
+        "fname": "Nolus",
         "avg_blocktime": 7,
         "mm2": 1,
         "wallet_only": true,
@@ -22660,7 +22854,7 @@
     {
         "coin": "NTRN-IBC_NLS",
         "name": "ntrn-ibc_nls",
-        "fname": "NTRN",
+        "fname": "Neutron",
         "avg_blocktime": 7,
         "mm2": 1,
         "wallet_only": true,
@@ -22931,9 +23125,26 @@
         }
     },
     {
+        "coin": "OSMO-IBC_DYS",
+        "name": "osmo-ibc_dys",
+        "fname": "Osmosis",
+        "avg_blocktime": 7,
+        "mm2": 1,
+        "wallet_only": true,
+        "protocol": {
+            "type": "TENDERMINTTOKEN",
+            "protocol_data": {
+                "platform": "DYS",
+                "decimals": 18,
+                "denom": "ibc/13B2C536BB057AC79D5616B8EA1B9540EC1F2170718CAFF6F0083C966FFFED0B",
+                "gas_price": 0.0002
+            }
+        }
+    },
+    {
         "coin": "OSMO-IBC_FLIX",
         "name": "osmo-ibc_flix",
-        "fname": "Osmosis osmo",
+        "fname": "Osmosis",
         "avg_blocktime": 7,
         "mm2": 1,
         "wallet_only": true,
@@ -22984,7 +23195,7 @@
     {
         "coin": "OSMO-IBC_PRYZM",
         "name": "osmo-ibc_pryzm",
-        "fname": "Osmo",
+        "fname": "Osmosis",
         "avg_blocktime": 7,
         "mm2": 1,
         "wallet_only": true,
@@ -23359,7 +23570,7 @@
     {
         "coin": "PUNDIX-IBC_OSMO",
         "name": "pundix-ibc_osmo",
-        "fname": "Pundi X Token",
+        "fname": "Pundi X Chain",
         "avg_blocktime": 7,
         "mm2": 1,
         "wallet_only": true,
@@ -23376,7 +23587,7 @@
     {
         "coin": "PUNDIX-IBC_OSMO",
         "name": "pundix-ibc_osmo",
-        "fname": "Pundi X Token",
+        "fname": "Pundi X Chain",
         "avg_blocktime": 7,
         "mm2": 1,
         "wallet_only": true,
@@ -23440,26 +23651,6 @@
                 "gas_price": 0.025
             }
         }
-    },
-    {
-        "coin": "QCK",
-        "avg_blocktime": 7,
-        "name": "quicksilver",
-        "fname": "Quicksilver",
-        "mm2": 1,
-        "wallet_only": true,
-        "protocol": {
-            "type": "TENDERMINT",
-            "protocol_data": {
-                "decimals": 6,
-                "denom": "uqck",
-                "account_prefix": "quick",
-                "chain_registry_name": "quicksilver",
-                "chain_id": "quicksilver-2",
-                "gas_price": 0.0001
-            }
-        },
-        "derivation_path": "m/44'/118'"
     },
     {
         "coin": "QCK-IBC_OSMO",
@@ -24058,7 +24249,7 @@
     {
         "coin": "SCR-IBC_OSMO",
         "name": "scr-ibc_osmo",
-        "fname": "Scorum",
+        "fname": "Scorum Network",
         "avg_blocktime": 7,
         "mm2": 1,
         "wallet_only": true,
@@ -24095,7 +24286,7 @@
     {
         "coin": "SCRT-IBC_NLS",
         "name": "scrt-ibc_nls",
-        "fname": "SCRT",
+        "fname": "Secret Network",
         "avg_blocktime": 7,
         "mm2": 1,
         "wallet_only": true,
@@ -24196,26 +24387,6 @@
                 "gas_price": 0.025
             }
         }
-    },
-    {
-        "coin": "SEI",
-        "avg_blocktime": 7,
-        "name": "sei",
-        "fname": "Sei",
-        "mm2": 1,
-        "wallet_only": true,
-        "protocol": {
-            "type": "TENDERMINT",
-            "protocol_data": {
-                "decimals": 6,
-                "denom": "usei",
-                "account_prefix": "sei",
-                "chain_registry_name": "sei",
-                "chain_id": "pacific-1",
-                "gas_price": 0.02
-            }
-        },
-        "derivation_path": "m/44'/118'"
     },
     {
         "coin": "SEI-IBC_OSMO",
@@ -24808,7 +24979,7 @@
     {
         "coin": "STARS-IBC_NLS",
         "name": "stars-ibc_nls",
-        "fname": "STARS",
+        "fname": "Stargaze",
         "avg_blocktime": 7,
         "mm2": 1,
         "wallet_only": true,
@@ -24842,7 +25013,7 @@
     {
         "coin": "STARS-IBC_SWTH",
         "name": "stars-ibc_swth",
-        "fname": "Stargaze Staking Coin",
+        "fname": "Stargaze",
         "avg_blocktime": 7,
         "mm2": 1,
         "wallet_only": true,
@@ -24896,7 +25067,7 @@
     {
         "coin": "STRD-IBC_NLS",
         "name": "strd-ibc_nls",
-        "fname": "STRD",
+        "fname": "Stride",
         "avg_blocktime": 7,
         "mm2": 1,
         "wallet_only": true,
@@ -25144,29 +25315,9 @@
         }
     },
     {
-        "coin": "TIA",
-        "avg_blocktime": 7,
-        "name": "celestia",
-        "fname": "Celestia",
-        "mm2": 1,
-        "wallet_only": true,
-        "protocol": {
-            "type": "TENDERMINT",
-            "protocol_data": {
-                "decimals": 6,
-                "denom": "utia",
-                "account_prefix": "celestia",
-                "chain_registry_name": "celestia",
-                "chain_id": "celestia",
-                "gas_price": 0.02
-            }
-        },
-        "derivation_path": "m/44'/118'"
-    },
-    {
         "coin": "TIA-IBC_NLS",
         "name": "tia-ibc_nls",
-        "fname": "TIA",
+        "fname": "Celestia",
         "avg_blocktime": 7,
         "mm2": 1,
         "wallet_only": true,
@@ -25183,7 +25334,7 @@
     {
         "coin": "TIA-IBC_NTRN",
         "name": "tia-ibc_ntrn",
-        "fname": "Celestia TIA",
+        "fname": "Celestia",
         "avg_blocktime": 7,
         "mm2": 1,
         "wallet_only": true,
@@ -25217,7 +25368,7 @@
     {
         "coin": "TIA-IBC_PRYZM",
         "name": "tia-ibc_pryzm",
-        "fname": "Tia",
+        "fname": "Celestia",
         "avg_blocktime": 7,
         "mm2": 1,
         "wallet_only": true,
@@ -25251,7 +25402,7 @@
     {
         "coin": "TIA-IBC_SWTH",
         "name": "tia-ibc_swth",
-        "fname": "Celestia TIA",
+        "fname": "Celestia",
         "avg_blocktime": 7,
         "mm2": 1,
         "wallet_only": true,
@@ -25337,6 +25488,26 @@
         }
     },
     {
+        "coin": "TOKEN",
+        "avg_blocktime": 7,
+        "name": "loop",
+        "fname": "Loop",
+        "mm2": 1,
+        "wallet_only": true,
+        "protocol": {
+            "type": "TENDERMINT",
+            "protocol_data": {
+                "decimals": 9,
+                "denom": "token",
+                "account_prefix": "loop",
+                "chain_registry_name": "loop",
+                "chain_id": "loop-1",
+                "gas_price": 0
+            }
+        },
+        "derivation_path": "m/44'/118'"
+    },
+    {
         "coin": "TORI",
         "avg_blocktime": 7,
         "name": "teritori",
@@ -25374,6 +25545,26 @@
         }
     },
     {
+        "coin": "TTNC",
+        "avg_blocktime": 7,
+        "name": "taketitan",
+        "fname": "TakeTitan",
+        "mm2": 1,
+        "wallet_only": true,
+        "protocol": {
+            "type": "TENDERMINT",
+            "protocol_data": {
+                "decimals": 6,
+                "denom": "ttnc",
+                "account_prefix": "taketitan",
+                "chain_registry_name": "taketitan",
+                "chain_id": "taketitan-12",
+                "gas_price": 5e-06
+            }
+        },
+        "derivation_path": "m/44'/1179993421'"
+    },
+    {
         "coin": "UM-IBC_OSMO",
         "name": "um-ibc_osmo",
         "fname": "Penumbra",
@@ -25389,6 +25580,26 @@
                 "gas_price": 0.025
             }
         }
+    },
+    {
+        "coin": "UMEE",
+        "avg_blocktime": 7,
+        "name": "umee",
+        "fname": "UX Chain",
+        "mm2": 1,
+        "wallet_only": true,
+        "protocol": {
+            "type": "TENDERMINT",
+            "protocol_data": {
+                "decimals": 6,
+                "denom": "uumee",
+                "account_prefix": "umee",
+                "chain_registry_name": "umee",
+                "chain_id": "umee-1",
+                "gas_price": 0.12
+            }
+        },
+        "derivation_path": "m/44'/118'"
     },
     {
         "coin": "UMEE-IBC_OSMO",
@@ -25428,6 +25639,23 @@
         "derivation_path": "m/44'/60'"
     },
     {
+        "coin": "USDC-IBC_ARCH",
+        "name": "usdc-ibc_arch",
+        "fname": "USDC (Noble)",
+        "avg_blocktime": 7,
+        "mm2": 1,
+        "wallet_only": true,
+        "protocol": {
+            "type": "TENDERMINTTOKEN",
+            "protocol_data": {
+                "platform": "ARCH",
+                "decimals": 6,
+                "denom": "ibc/43897B9739BD63E3A08A88191999C632E052724AB96BD4C74AE31375C991F48D",
+                "gas_price": 225400000000
+            }
+        }
+    },
+    {
         "coin": "USDC-IBC_BZE",
         "name": "usdc-ibc_bze",
         "fname": "USDC",
@@ -25458,6 +25686,23 @@
                 "decimals": 18,
                 "denom": "ibc/8E27BA2D5493AF5636760E354E46004562C46AB7EC0CC4C1CA14E9E20E2545B5",
                 "gas_price": 12500000000
+            }
+        }
+    },
+    {
+        "coin": "USDC-IBC_DYS",
+        "name": "usdc-ibc_dys",
+        "fname": "USD Coin",
+        "avg_blocktime": 7,
+        "mm2": 1,
+        "wallet_only": true,
+        "protocol": {
+            "type": "TENDERMINTTOKEN",
+            "protocol_data": {
+                "platform": "DYS",
+                "decimals": 18,
+                "denom": "ibc/13DF61376C08483555C6D4C9203612086A1B23218EB5EBDBE609EEC7EFF2D82D",
+                "gas_price": 0.0002
             }
         }
     },
@@ -25594,23 +25839,6 @@
                 "decimals": 6,
                 "denom": "ibc/BFAAB7870A9AAABF64A7366DAAA0B8E5065EAA1FCE762F45677DC24BE796EF65",
                 "gas_price": 0.003
-            }
-        }
-    },
-    {
-        "coin": "USDC-IBC_QCK",
-        "name": "usdc-ibc_qck",
-        "fname": "Noble USDC",
-        "avg_blocktime": 7,
-        "mm2": 1,
-        "wallet_only": true,
-        "protocol": {
-            "type": "TENDERMINTTOKEN",
-            "protocol_data": {
-                "platform": "QCK",
-                "decimals": 6,
-                "denom": "ibc/5666A86DCC869C75F69A7938AD6DCFECAC4A09C73522599E7A85B10143E5FBD2",
-                "gas_price": 0.0001
             }
         }
     },
@@ -25924,6 +26152,23 @@
         }
     },
     {
+        "coin": "WBTC-IBC_DYS",
+        "name": "wbtc-ibc_dys",
+        "fname": "Wrapped Bitcoin",
+        "avg_blocktime": 7,
+        "mm2": 1,
+        "wallet_only": true,
+        "protocol": {
+            "type": "TENDERMINTTOKEN",
+            "protocol_data": {
+                "platform": "DYS",
+                "decimals": 18,
+                "denom": "ibc/9BF31153F7E37F687C75A2F310E7A4DB6E0512B065F709B5EB69FE828133AFAC",
+                "gas_price": 0.0002
+            }
+        }
+    },
+    {
         "coin": "WBTC-IBC_NLS",
         "name": "wbtc-ibc_nls",
         "fname": "WBTC",
@@ -26178,23 +26423,6 @@
                 "decimals": 6,
                 "denom": "ibc/7DA39F5140741177846FCF3CFAB14450EE7F57B7794E5A94BEF73825D3741958",
                 "gas_price": 0.0053
-            }
-        }
-    },
-    {
-        "coin": "WOSMO-IBC_SEI",
-        "name": "wosmo-ibc_sei",
-        "fname": "Wosmo",
-        "avg_blocktime": 7,
-        "mm2": 1,
-        "wallet_only": true,
-        "protocol": {
-            "type": "TENDERMINTTOKEN",
-            "protocol_data": {
-                "platform": "SEI",
-                "decimals": 6,
-                "denom": "ibc/B023C57727A38A9CF87238F9008477C3761AD4774D528BFA458DD707D90B553A",
-                "gas_price": 0.02
             }
         }
     },

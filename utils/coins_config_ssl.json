@@ -4584,7 +4584,7 @@
         },
         "electrum": [
             {
-                "url": "bbk-ex-two.ewmci.online:50002",
+                "url": "bbk-ex-three.ewmci.online:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -4593,7 +4593,7 @@
                 ]
             },
             {
-                "url": "bbk-ex-three.ewmci.online:50002",
+                "url": "bbk-ex-two.ewmci.online:50002",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -44164,6 +44164,457 @@
         ],
         "explorer_block_url": "block/"
     },
+    "ASTRO-IBC_SEI": {
+        "coin": "ASTRO-IBC_SEI",
+        "type": "TENDERMINTTOKEN",
+        "name": "Sei",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://ezstaking.app/sei",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "account/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": true,
+        "fname": "Sei",
+        "avg_blocktime": 7,
+        "mm2": 1,
+        "protocol": {
+            "type": "TENDERMINTTOKEN",
+            "protocol_data": {
+                "platform": "SEI",
+                "decimals": 6,
+                "denom": "ibc/063F4461F7317CFF10F50AB044E44932D22AAD84FA7107082744946E6DB7B7A8",
+                "gas_price": 0.02
+            }
+        },
+        "parent_coin": "SEI",
+        "rpc_urls": [
+            {
+                "url": "https://rpc.cosmos.directory/sei",
+                "api_url": "https://rest.cosmos.directory/sei"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "BCP": {
+        "coin": "BCP",
+        "type": "TENDERMINT",
+        "name": "BlueChip",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": true,
+        "avg_blocktime": 7,
+        "fname": "BlueChip",
+        "mm2": 1,
+        "protocol": {
+            "type": "TENDERMINT",
+            "protocol_data": {
+                "decimals": 6,
+                "denom": "ubluechip",
+                "account_prefix": "bcp",
+                "chain_registry_name": "bluechip",
+                "chain_id": "bluechip-2",
+                "gas_price": 0.025
+            }
+        },
+        "derivation_path": "m/44'/118'",
+        "rpc_urls": [
+            {
+                "url": "https://rpc.cosmos.directory/bluechip",
+                "api_url": "https://rest.cosmos.directory/bluechip"
+            }
+        ]
+    },
+    "CVN": {
+        "coin": "CVN",
+        "type": "TENDERMINT",
+        "name": "ConsciousDAO",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://explore.consciousdao.com/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": true,
+        "avg_blocktime": 7,
+        "fname": "ConsciousDAO",
+        "mm2": 1,
+        "protocol": {
+            "type": "TENDERMINT",
+            "protocol_data": {
+                "decimals": 18,
+                "denom": "acvnt",
+                "account_prefix": "cvn",
+                "chain_registry_name": "conscious",
+                "chain_id": "cvn_2032-1",
+                "gas_price": 200000000
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "rpc_urls": [
+            {
+                "url": "https://rpc.cosmos.directory/conscious",
+                "api_url": "https://rest.cosmos.directory/conscious"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "DORA": {
+        "coin": "DORA",
+        "type": "TENDERMINT",
+        "name": "Dora Vota",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://exp.utsa.tech/dora/staking",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": true,
+        "avg_blocktime": 7,
+        "fname": "Dora Vota",
+        "mm2": 1,
+        "protocol": {
+            "type": "TENDERMINT",
+            "protocol_data": {
+                "decimals": 18,
+                "denom": "peaka",
+                "account_prefix": "dora",
+                "chain_registry_name": "doravota",
+                "chain_id": "vota-ash",
+                "gas_price": 100000000000
+            }
+        },
+        "derivation_path": "m/44'/118'",
+        "rpc_urls": [
+            {
+                "url": "https://rpc.cosmos.directory/doravota",
+                "api_url": "https://rest.cosmos.directory/doravota"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "FCT": {
+        "coin": "FCT",
+        "type": "TENDERMINT",
+        "name": "FIRMACHAIN",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://atomscan.com/firmachain",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": true,
+        "avg_blocktime": 7,
+        "fname": "FIRMACHAIN",
+        "mm2": 1,
+        "protocol": {
+            "type": "TENDERMINT",
+            "protocol_data": {
+                "decimals": 6,
+                "denom": "ufct",
+                "account_prefix": "firma",
+                "chain_registry_name": "firmachain",
+                "chain_id": "colosseum-1",
+                "gas_price": 0.15
+            }
+        },
+        "derivation_path": "m/44'/7777777'",
+        "rpc_urls": [
+            {
+                "url": "https://rpc.cosmos.directory/firmachain",
+                "api_url": "https://rest.cosmos.directory/firmachain"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "JKL": {
+        "coin": "JKL",
+        "type": "TENDERMINT",
+        "name": "Jackal",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://bigdipper.live/jackal",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": true,
+        "avg_blocktime": 7,
+        "fname": "Jackal",
+        "mm2": 1,
+        "protocol": {
+            "type": "TENDERMINT",
+            "protocol_data": {
+                "decimals": 6,
+                "denom": "ujkl",
+                "account_prefix": "jkl",
+                "chain_registry_name": "jackal",
+                "chain_id": "jackal-1",
+                "gas_price": 0.002
+            }
+        },
+        "derivation_path": "m/44'/118'",
+        "rpc_urls": [
+            {
+                "url": "https://rpc.cosmos.directory/jackal",
+                "api_url": "https://rest.cosmos.directory/jackal"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "LRZ": {
+        "coin": "LRZ",
+        "type": "TENDERMINT",
+        "name": "Lorenzo Protocol",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://scan.lorenzo-protocol.xyz/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": true,
+        "avg_blocktime": 7,
+        "fname": "Lorenzo Protocol",
+        "mm2": 1,
+        "protocol": {
+            "type": "TENDERMINT",
+            "protocol_data": {
+                "decimals": 18,
+                "denom": "alrz",
+                "account_prefix": "lrz",
+                "chain_registry_name": "lorenzo",
+                "chain_id": "lorenzo_8329-1",
+                "gas_price": 2000000
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "rpc_urls": [
+            {
+                "url": "https://rpc.cosmos.directory/lorenzo",
+                "api_url": "https://rest.cosmos.directory/lorenzo"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "QCK": {
+        "coin": "QCK",
+        "type": "TENDERMINT",
+        "name": "Quicksilver",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://exp.utsa.tech/quicksilver",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "account/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": true,
+        "avg_blocktime": 7,
+        "fname": "Quicksilver",
+        "mm2": 1,
+        "protocol": {
+            "type": "TENDERMINT",
+            "protocol_data": {
+                "decimals": 6,
+                "denom": "uqck",
+                "account_prefix": "quick",
+                "chain_registry_name": "quicksilver",
+                "chain_id": "quicksilver-2",
+                "gas_price": 0.0001
+            }
+        },
+        "derivation_path": "m/44'/118'",
+        "rpc_urls": [
+            {
+                "url": "https://rpc.cosmos.directory/quicksilver",
+                "api_url": "https://rest.cosmos.directory/quicksilver"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "SEI": {
+        "coin": "SEI",
+        "type": "TENDERMINT",
+        "name": "Sei",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://ezstaking.app/sei",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "account/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": true,
+        "avg_blocktime": 7,
+        "fname": "Sei",
+        "mm2": 1,
+        "protocol": {
+            "type": "TENDERMINT",
+            "protocol_data": {
+                "decimals": 6,
+                "denom": "usei",
+                "account_prefix": "sei",
+                "chain_registry_name": "sei",
+                "chain_id": "pacific-1",
+                "gas_price": 0.02
+            }
+        },
+        "derivation_path": "m/44'/118'",
+        "rpc_urls": [
+            {
+                "url": "https://rpc.cosmos.directory/sei",
+                "api_url": "https://rest.cosmos.directory/sei"
+            }
+        ],
+        "explorer_block_url": "block/",
+        "binance_id": "SEI"
+    },
+    "TIA": {
+        "coin": "TIA",
+        "type": "TENDERMINT",
+        "name": "Celestia",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://explorer.mainnet.dteam.tech/celestia",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": true,
+        "avg_blocktime": 7,
+        "fname": "Celestia",
+        "mm2": 1,
+        "protocol": {
+            "type": "TENDERMINT",
+            "protocol_data": {
+                "decimals": 6,
+                "denom": "utia",
+                "account_prefix": "celestia",
+                "chain_registry_name": "celestia",
+                "chain_id": "celestia",
+                "gas_price": 0.02
+            }
+        },
+        "derivation_path": "m/44'/118'",
+        "rpc_urls": [
+            {
+                "url": "https://rpc.cosmos.directory/celestia",
+                "api_url": "https://rest.cosmos.directory/celestia"
+            }
+        ],
+        "explorer_block_url": "block/",
+        "binance_id": "TIA"
+    },
+    "USDC-IBC_QCK": {
+        "coin": "USDC-IBC_QCK",
+        "type": "TENDERMINTTOKEN",
+        "name": "Quicksilver",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "USDC",
+        "explorer_url": "https://exp.utsa.tech/quicksilver",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "account/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": true,
+        "fname": "Quicksilver",
+        "avg_blocktime": 7,
+        "mm2": 1,
+        "protocol": {
+            "type": "TENDERMINTTOKEN",
+            "protocol_data": {
+                "platform": "QCK",
+                "decimals": 6,
+                "denom": "ibc/5666A86DCC869C75F69A7938AD6DCFECAC4A09C73522599E7A85B10143E5FBD2",
+                "gas_price": 0.0001
+            }
+        },
+        "parent_coin": "QCK",
+        "rpc_urls": [
+            {
+                "url": "https://rpc.cosmos.directory/quicksilver",
+                "api_url": "https://rest.cosmos.directory/quicksilver"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "WOSMO-IBC_SEI": {
+        "coin": "WOSMO-IBC_SEI",
+        "type": "TENDERMINTTOKEN",
+        "name": "Sei",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://ezstaking.app/sei",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "account/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": true,
+        "fname": "Sei",
+        "avg_blocktime": 7,
+        "mm2": 1,
+        "protocol": {
+            "type": "TENDERMINTTOKEN",
+            "protocol_data": {
+                "platform": "SEI",
+                "decimals": 6,
+                "denom": "ibc/B023C57727A38A9CF87238F9008477C3761AD4774D528BFA458DD707D90B553A",
+                "gas_price": 0.02
+            }
+        },
+        "parent_coin": "SEI",
+        "rpc_urls": [
+            {
+                "url": "https://rpc.cosmos.directory/sei",
+                "api_url": "https://rest.cosmos.directory/sei"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "404DR-IBC_OSMO": {
         "coin": "404DR-IBC_OSMO",
         "type": "TENDERMINTTOKEN",
@@ -44623,7 +45074,7 @@
     "AKT-IBC_NLS": {
         "coin": "AKT-IBC_NLS",
         "type": "TENDERMINTTOKEN",
-        "name": "AKT",
+        "name": "Akash",
         "coinpaprika_id": "",
         "coingecko_id": "",
         "livecoinwatch_id": "",
@@ -44635,7 +45086,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": true,
-        "fname": "AKT",
+        "fname": "Akash",
         "avg_blocktime": 7,
         "mm2": 1,
         "protocol": {
@@ -45476,42 +45927,6 @@
         ],
         "explorer_block_url": "block/"
     },
-    "ASTRO-IBC_SEI": {
-        "coin": "ASTRO-IBC_SEI",
-        "type": "TENDERMINTTOKEN",
-        "name": "Astroport token",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "livecoinwatch_id": "",
-        "explorer_url": "https://ezstaking.app/sei",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "account/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": true,
-        "fname": "Astroport token",
-        "avg_blocktime": 7,
-        "mm2": 1,
-        "protocol": {
-            "type": "TENDERMINTTOKEN",
-            "protocol_data": {
-                "platform": "SEI",
-                "decimals": 6,
-                "denom": "ibc/063F4461F7317CFF10F50AB044E44932D22AAD84FA7107082744946E6DB7B7A8",
-                "gas_price": 0.02
-            }
-        },
-        "parent_coin": "SEI",
-        "rpc_urls": [
-            {
-                "url": "https://rpc.cosmos.directory/sei",
-                "api_url": "https://rest.cosmos.directory/sei"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
     "ASTRO-IBC_STARS": {
         "coin": "ASTRO-IBC_STARS",
         "type": "TENDERMINTTOKEN",
@@ -45739,7 +46154,7 @@
     "ATOM-IBC_FLIX": {
         "coin": "ATOM-IBC_FLIX",
         "type": "TENDERMINTTOKEN",
-        "name": "Cosmos Hub Atom",
+        "name": "Cosmos Hub",
         "coinpaprika_id": "",
         "coingecko_id": "cosmos",
         "livecoinwatch_id": "ATOM",
@@ -45751,7 +46166,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": true,
-        "fname": "Cosmos Hub Atom",
+        "fname": "Cosmos Hub",
         "avg_blocktime": 7,
         "mm2": 1,
         "protocol": {
@@ -45813,7 +46228,7 @@
     "ATOM-IBC_JUNO": {
         "coin": "ATOM-IBC_JUNO",
         "type": "TENDERMINTTOKEN",
-        "name": "ATOM on Juno",
+        "name": "Cosmos Hub",
         "coinpaprika_id": "",
         "coingecko_id": "cosmos",
         "livecoinwatch_id": "ATOM",
@@ -45825,7 +46240,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": true,
-        "fname": "ATOM on Juno",
+        "fname": "Cosmos Hub",
         "avg_blocktime": 7,
         "mm2": 1,
         "protocol": {
@@ -45850,7 +46265,7 @@
     "ATOM-IBC_KUJI": {
         "coin": "ATOM-IBC_KUJI",
         "type": "TENDERMINTTOKEN",
-        "name": "Cosmos Hub Atom",
+        "name": "Cosmos Hub",
         "coinpaprika_id": "",
         "coingecko_id": "cosmos",
         "livecoinwatch_id": "ATOM",
@@ -45862,7 +46277,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": true,
-        "fname": "Cosmos Hub Atom",
+        "fname": "Cosmos Hub",
         "avg_blocktime": 7,
         "mm2": 1,
         "protocol": {
@@ -45887,7 +46302,7 @@
     "ATOM-IBC_NLS": {
         "coin": "ATOM-IBC_NLS",
         "type": "TENDERMINTTOKEN",
-        "name": "Atom",
+        "name": "Cosmos Hub",
         "coinpaprika_id": "",
         "coingecko_id": "cosmos",
         "livecoinwatch_id": "ATOM",
@@ -45899,7 +46314,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": true,
-        "fname": "Atom",
+        "fname": "Cosmos Hub",
         "avg_blocktime": 7,
         "mm2": 1,
         "protocol": {
@@ -45924,7 +46339,7 @@
     "ATOM-IBC_NTRN": {
         "coin": "ATOM-IBC_NTRN",
         "type": "TENDERMINTTOKEN",
-        "name": "IBC atom",
+        "name": "Cosmos Hub",
         "coinpaprika_id": "",
         "coingecko_id": "cosmos",
         "livecoinwatch_id": "ATOM",
@@ -45936,7 +46351,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": true,
-        "fname": "IBC atom",
+        "fname": "Cosmos Hub",
         "avg_blocktime": 7,
         "mm2": 1,
         "protocol": {
@@ -46013,7 +46428,7 @@
     "ATOM-IBC_PRYZM": {
         "coin": "ATOM-IBC_PRYZM",
         "type": "TENDERMINTTOKEN",
-        "name": "Atom",
+        "name": "Cosmos Hub",
         "coinpaprika_id": "",
         "coingecko_id": "cosmos",
         "livecoinwatch_id": "ATOM",
@@ -46025,7 +46440,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": true,
-        "fname": "Atom",
+        "fname": "Cosmos Hub",
         "avg_blocktime": 7,
         "mm2": 1,
         "protocol": {
@@ -46050,7 +46465,7 @@
     "ATOM-IBC_QSR": {
         "coin": "ATOM-IBC_QSR",
         "type": "TENDERMINTTOKEN",
-        "name": "Atom",
+        "name": "Cosmos Hub",
         "coinpaprika_id": "",
         "coingecko_id": "cosmos",
         "livecoinwatch_id": "ATOM",
@@ -46062,7 +46477,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": true,
-        "fname": "Atom",
+        "fname": "Cosmos Hub",
         "avg_blocktime": 7,
         "mm2": 1,
         "protocol": {
@@ -46087,7 +46502,7 @@
     "ATOM-IBC_STAKE": {
         "coin": "ATOM-IBC_STAKE",
         "type": "TENDERMINTTOKEN",
-        "name": "Atom Staking Coin",
+        "name": "Cosmos Hub",
         "coinpaprika_id": "",
         "coingecko_id": "cosmos",
         "livecoinwatch_id": "ATOM",
@@ -46099,7 +46514,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": true,
-        "fname": "Atom Staking Coin",
+        "fname": "Cosmos Hub",
         "avg_blocktime": 7,
         "mm2": 1,
         "protocol": {
@@ -46124,7 +46539,7 @@
     "ATOM-IBC_SWTH": {
         "coin": "ATOM-IBC_SWTH",
         "type": "TENDERMINTTOKEN",
-        "name": "Cosmos",
+        "name": "Cosmos Hub",
         "coinpaprika_id": "",
         "coingecko_id": "cosmos",
         "livecoinwatch_id": "ATOM",
@@ -46136,7 +46551,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": true,
-        "fname": "Cosmos",
+        "fname": "Cosmos Hub",
         "avg_blocktime": 7,
         "mm2": 1,
         "protocol": {
@@ -46161,7 +46576,7 @@
     "ATOM-IBC_TORI": {
         "coin": "ATOM-IBC_TORI",
         "type": "TENDERMINTTOKEN",
-        "name": "Cosmos Hub Atom",
+        "name": "Cosmos Hub",
         "coinpaprika_id": "",
         "coingecko_id": "cosmos",
         "livecoinwatch_id": "ATOM",
@@ -46173,7 +46588,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": true,
-        "fname": "Cosmos Hub Atom",
+        "fname": "Cosmos Hub",
         "avg_blocktime": 7,
         "mm2": 1,
         "protocol": {
@@ -46198,7 +46613,7 @@
     "ATOM-IBC_XPRT": {
         "coin": "ATOM-IBC_XPRT",
         "type": "TENDERMINTTOKEN",
-        "name": "Cosmos Hub Atom",
+        "name": "Cosmos Hub",
         "coinpaprika_id": "",
         "coingecko_id": "cosmos",
         "livecoinwatch_id": "ATOM",
@@ -46210,7 +46625,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": true,
-        "fname": "Cosmos Hub Atom",
+        "fname": "Cosmos Hub",
         "avg_blocktime": 7,
         "mm2": 1,
         "protocol": {
@@ -46424,10 +46839,49 @@
         "explorer_block_url": "block/",
         "binance_id": "AVAX"
     },
+    "AXL": {
+        "coin": "AXL",
+        "type": "TENDERMINT",
+        "name": "Axelar",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://atomscan.com/axelar",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "account/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": true,
+        "avg_blocktime": 7,
+        "fname": "Axelar",
+        "mm2": 1,
+        "protocol": {
+            "type": "TENDERMINT",
+            "protocol_data": {
+                "decimals": 6,
+                "denom": "uaxl",
+                "account_prefix": "axelar",
+                "chain_registry_name": "axelar",
+                "chain_id": "axelar-dojo-1",
+                "gas_price": 0.007
+            }
+        },
+        "derivation_path": "m/44'/118'",
+        "rpc_urls": [
+            {
+                "url": "https://rpc.cosmos.directory/axelar",
+                "api_url": "https://rest.cosmos.directory/axelar"
+            }
+        ],
+        "explorer_block_url": "block/",
+        "binance_id": "AXL"
+    },
     "AXL-IBC_NLS": {
         "coin": "AXL-IBC_NLS",
         "type": "TENDERMINTTOKEN",
-        "name": "AXL",
+        "name": "Axelar",
         "coinpaprika_id": "",
         "coingecko_id": "",
         "livecoinwatch_id": "",
@@ -46439,7 +46893,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": true,
-        "fname": "AXL",
+        "fname": "Axelar",
         "avg_blocktime": 7,
         "mm2": 1,
         "protocol": {
@@ -46458,7 +46912,8 @@
                 "api_url": "https://rest.cosmos.directory/nolus"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "AXL"
     },
     "AXL-IBC_OSMO": {
         "coin": "AXL-IBC_OSMO",
@@ -46509,7 +46964,8 @@
                 "api_url": "https://rest.cosmos.directory/osmosis"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "AXL"
     },
     "BAD-IBC_OSMO": {
         "coin": "BAD-IBC_OSMO",
@@ -46864,43 +47320,6 @@
             }
         ],
         "explorer_block_url": "block/"
-    },
-    "BCP": {
-        "coin": "BCP",
-        "type": "TENDERMINT",
-        "name": "BlueChip",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "livecoinwatch_id": "",
-        "explorer_url": "",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": true,
-        "avg_blocktime": 7,
-        "fname": "BlueChip",
-        "mm2": 1,
-        "protocol": {
-            "type": "TENDERMINT",
-            "protocol_data": {
-                "decimals": 6,
-                "denom": "ubluechip",
-                "account_prefix": "bcp",
-                "chain_registry_name": "bluechip",
-                "chain_id": "bluechip-2",
-                "gas_price": 0.025
-            }
-        },
-        "derivation_path": "m/44'/118'",
-        "rpc_urls": [
-            {
-                "url": "https://rpc.cosmos.directory/bluechip",
-                "api_url": "https://rest.cosmos.directory/bluechip"
-            }
-        ]
     },
     "BEAST-IBC_OSMO": {
         "coin": "BEAST-IBC_OSMO",
@@ -47627,6 +48046,44 @@
             {
                 "url": "https://rpc.cosmos.directory/osmosis",
                 "api_url": "https://rest.cosmos.directory/osmosis"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "BTSG": {
+        "coin": "BTSG",
+        "type": "TENDERMINT",
+        "name": "BitSong",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://atomscan.com/bitsong",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "account/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": true,
+        "avg_blocktime": 7,
+        "fname": "BitSong",
+        "mm2": 1,
+        "protocol": {
+            "type": "TENDERMINT",
+            "protocol_data": {
+                "decimals": 6,
+                "denom": "ubtsg",
+                "account_prefix": "bitsong",
+                "chain_registry_name": "bitsong",
+                "chain_id": "bitsong-2b",
+                "gas_price": 10
+            }
+        },
+        "derivation_path": "m/44'/639'",
+        "rpc_urls": [
+            {
+                "url": "https://rpc.cosmos.directory/bitsong",
+                "api_url": "https://rest.cosmos.directory/bitsong"
             }
         ],
         "explorer_block_url": "block/"
@@ -49072,10 +49529,48 @@
         ],
         "explorer_block_url": "block/"
     },
+    "CRO": {
+        "coin": "CRO",
+        "type": "TENDERMINT",
+        "name": "Cronos POS Chain",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "CRO",
+        "explorer_url": "https://cronos-pos.org/explorer",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "account/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": true,
+        "avg_blocktime": 7,
+        "fname": "Cronos POS Chain",
+        "mm2": 1,
+        "protocol": {
+            "type": "TENDERMINT",
+            "protocol_data": {
+                "decimals": 8,
+                "denom": "basecro",
+                "account_prefix": "cro",
+                "chain_registry_name": "cryptoorgchain",
+                "chain_id": "crypto-org-chain-mainnet-1",
+                "gas_price": 0.03
+            }
+        },
+        "derivation_path": "m/44'/394'",
+        "rpc_urls": [
+            {
+                "url": "https://rpc.cosmos.directory/cryptoorgchain",
+                "api_url": "https://rest.cosmos.directory/cryptoorgchain"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "CRO-IBC_NLS": {
         "coin": "CRO-IBC_NLS",
         "type": "TENDERMINTTOKEN",
-        "name": "CRO",
+        "name": "Cronos POS Chain",
         "coinpaprika_id": "",
         "coingecko_id": "",
         "livecoinwatch_id": "CRO",
@@ -49087,7 +49582,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": true,
-        "fname": "CRO",
+        "fname": "Cronos POS Chain",
         "avg_blocktime": 7,
         "mm2": 1,
         "protocol": {
@@ -49429,7 +49924,7 @@
     "CUDOS-IBC_NLS": {
         "coin": "CUDOS-IBC_NLS",
         "type": "TENDERMINTTOKEN",
-        "name": "CUDOS",
+        "name": "Cudos",
         "coinpaprika_id": "",
         "coingecko_id": "",
         "livecoinwatch_id": "",
@@ -49441,7 +49936,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": true,
-        "fname": "CUDOS",
+        "fname": "Cudos",
         "avg_blocktime": 7,
         "mm2": 1,
         "protocol": {
@@ -49509,44 +50004,6 @@
             {
                 "url": "https://rpc.cosmos.directory/osmosis",
                 "api_url": "https://rest.cosmos.directory/osmosis"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "CVN": {
-        "coin": "CVN",
-        "type": "TENDERMINT",
-        "name": "ConsciousDAO",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "livecoinwatch_id": "",
-        "explorer_url": "https://explore.consciousdao.com/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": true,
-        "avg_blocktime": 7,
-        "fname": "ConsciousDAO",
-        "mm2": 1,
-        "protocol": {
-            "type": "TENDERMINT",
-            "protocol_data": {
-                "decimals": 18,
-                "denom": "acvnt",
-                "account_prefix": "cvn",
-                "chain_registry_name": "conscious",
-                "chain_id": "cvn_2032-1",
-                "gas_price": 200000000
-            }
-        },
-        "derivation_path": "m/44'/60'",
-        "rpc_urls": [
-            {
-                "url": "https://rpc.cosmos.directory/conscious",
-                "api_url": "https://rest.cosmos.directory/conscious"
             }
         ],
         "explorer_block_url": "block/"
@@ -50300,44 +50757,6 @@
         ],
         "explorer_block_url": "block/"
     },
-    "DORA": {
-        "coin": "DORA",
-        "type": "TENDERMINT",
-        "name": "Dora Vota",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "livecoinwatch_id": "",
-        "explorer_url": "https://exp.utsa.tech/dora/staking",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": true,
-        "avg_blocktime": 7,
-        "fname": "Dora Vota",
-        "mm2": 1,
-        "protocol": {
-            "type": "TENDERMINT",
-            "protocol_data": {
-                "decimals": 18,
-                "denom": "peaka",
-                "account_prefix": "dora",
-                "chain_registry_name": "doravota",
-                "chain_id": "vota-ash",
-                "gas_price": 100000000000
-            }
-        },
-        "derivation_path": "m/44'/118'",
-        "rpc_urls": [
-            {
-                "url": "https://rpc.cosmos.directory/doravota",
-                "api_url": "https://rest.cosmos.directory/doravota"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
     "DORA-IBC_OSMO": {
         "coin": "DORA-IBC_OSMO",
         "type": "TENDERMINTTOKEN",
@@ -50645,7 +51064,7 @@
     "DYDX-IBC_NLS": {
         "coin": "DYDX-IBC_NLS",
         "type": "TENDERMINTTOKEN",
-        "name": "DYDX",
+        "name": "dYdX Protocol",
         "coinpaprika_id": "",
         "coingecko_id": "",
         "livecoinwatch_id": "",
@@ -50657,7 +51076,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": true,
-        "fname": "DYDX",
+        "fname": "dYdX Protocol",
         "avg_blocktime": 7,
         "mm2": 1,
         "protocol": {
@@ -50682,7 +51101,7 @@
     "DYDX-IBC_NTRN": {
         "coin": "DYDX-IBC_NTRN",
         "type": "TENDERMINTTOKEN",
-        "name": "DYDX",
+        "name": "dYdX Protocol",
         "coinpaprika_id": "",
         "coingecko_id": "",
         "livecoinwatch_id": "",
@@ -50694,7 +51113,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": true,
-        "fname": "DYDX",
+        "fname": "dYdX Protocol",
         "avg_blocktime": 7,
         "mm2": 1,
         "protocol": {
@@ -50771,7 +51190,7 @@
     "DYDX-IBC_PRYZM": {
         "coin": "DYDX-IBC_PRYZM",
         "type": "TENDERMINTTOKEN",
-        "name": "dYdX",
+        "name": "dYdX Protocol",
         "coinpaprika_id": "",
         "coingecko_id": "dydx-chain",
         "livecoinwatch_id": "",
@@ -50783,7 +51202,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": true,
-        "fname": "dYdX",
+        "fname": "dYdX Protocol",
         "avg_blocktime": 7,
         "mm2": 1,
         "protocol": {
@@ -50808,7 +51227,7 @@
     "DYDX-IBC_XPRT": {
         "coin": "DYDX-IBC_XPRT",
         "type": "TENDERMINTTOKEN",
-        "name": "dYdX",
+        "name": "dYdX Protocol",
         "coinpaprika_id": "",
         "coingecko_id": "",
         "livecoinwatch_id": "",
@@ -50820,7 +51239,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": true,
-        "fname": "dYdX",
+        "fname": "dYdX Protocol",
         "avg_blocktime": 7,
         "mm2": 1,
         "protocol": {
@@ -50932,6 +51351,44 @@
         ],
         "explorer_block_url": "block/",
         "binance_id": "DYM"
+    },
+    "DYS": {
+        "coin": "DYS",
+        "type": "TENDERMINT",
+        "name": "Dyson Protocol",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://explorer.dys.dysonprotocol.com/dyson/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": true,
+        "avg_blocktime": 7,
+        "fname": "Dyson Protocol",
+        "mm2": 1,
+        "protocol": {
+            "type": "TENDERMINT",
+            "protocol_data": {
+                "decimals": 18,
+                "denom": "dys",
+                "account_prefix": "dys",
+                "chain_registry_name": "dyson",
+                "chain_id": "dyson-mainnet-01",
+                "gas_price": 0.0002
+            }
+        },
+        "derivation_path": "m/44'/118'",
+        "rpc_urls": [
+            {
+                "url": "https://rpc.cosmos.directory/dyson",
+                "api_url": "https://rest.cosmos.directory/dyson"
+            }
+        ],
+        "explorer_block_url": "block/"
     },
     "DYS-IBC_OSMO": {
         "coin": "DYS-IBC_OSMO",
@@ -51238,7 +51695,7 @@
     "EVMOS-IBC_NLS": {
         "coin": "EVMOS-IBC_NLS",
         "type": "TENDERMINTTOKEN",
-        "name": "EVMOS",
+        "name": "Evmos",
         "coinpaprika_id": "",
         "coingecko_id": "",
         "livecoinwatch_id": "",
@@ -51250,7 +51707,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": true,
-        "fname": "EVMOS",
+        "fname": "Evmos",
         "avg_blocktime": 7,
         "mm2": 1,
         "protocol": {
@@ -51354,44 +51811,6 @@
             {
                 "url": "https://rpc.cosmos.directory/carbon",
                 "api_url": "https://rest.cosmos.directory/carbon"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "FCT": {
-        "coin": "FCT",
-        "type": "TENDERMINT",
-        "name": "FIRMACHAIN",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "livecoinwatch_id": "",
-        "explorer_url": "https://atomscan.com/firmachain",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": true,
-        "avg_blocktime": 7,
-        "fname": "FIRMACHAIN",
-        "mm2": 1,
-        "protocol": {
-            "type": "TENDERMINT",
-            "protocol_data": {
-                "decimals": 6,
-                "denom": "ufct",
-                "account_prefix": "firma",
-                "chain_registry_name": "firmachain",
-                "chain_id": "colosseum-1",
-                "gas_price": 0.15
-            }
-        },
-        "derivation_path": "m/44'/7777777'",
-        "rpc_urls": [
-            {
-                "url": "https://rpc.cosmos.directory/firmachain",
-                "api_url": "https://rest.cosmos.directory/firmachain"
             }
         ],
         "explorer_block_url": "block/"
@@ -52218,7 +52637,7 @@
     "FURY-IBC_OSMO": {
         "coin": "FURY-IBC_OSMO",
         "type": "TENDERMINTTOKEN",
-        "name": "furya",
+        "name": "Highbury",
         "coinpaprika_id": "",
         "coingecko_id": "",
         "livecoinwatch_id": "",
@@ -52230,7 +52649,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": true,
-        "fname": "furya",
+        "fname": "Highbury",
         "avg_blocktime": 7,
         "mm2": 1,
         "protocol": {
@@ -52307,7 +52726,7 @@
     "FX-IBC_ATOM": {
         "coin": "FX-IBC_ATOM",
         "type": "TENDERMINTTOKEN",
-        "name": "Function X",
+        "name": "f(x)Core",
         "coinpaprika_id": "",
         "coingecko_id": "",
         "livecoinwatch_id": "",
@@ -52319,7 +52738,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": true,
-        "fname": "Function X",
+        "fname": "f(x)Core",
         "avg_blocktime": 7,
         "mm2": 1,
         "protocol": {
@@ -54228,7 +54647,7 @@
     "IRIS-IBC_SWTH": {
         "coin": "IRIS-IBC_SWTH",
         "type": "TENDERMINTTOKEN",
-        "name": "IRIS Hub Staking Coin",
+        "name": "IRISnet",
         "coinpaprika_id": "",
         "coingecko_id": "iris-network",
         "livecoinwatch_id": "IRIS",
@@ -54240,7 +54659,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": true,
-        "fname": "IRIS Hub Staking Coin",
+        "fname": "IRISnet",
         "avg_blocktime": 7,
         "mm2": 1,
         "protocol": {
@@ -54578,44 +54997,6 @@
         ],
         "explorer_block_url": "block/"
     },
-    "JKL": {
-        "coin": "JKL",
-        "type": "TENDERMINT",
-        "name": "Jackal",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "livecoinwatch_id": "",
-        "explorer_url": "https://bigdipper.live/jackal",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": true,
-        "avg_blocktime": 7,
-        "fname": "Jackal",
-        "mm2": 1,
-        "protocol": {
-            "type": "TENDERMINT",
-            "protocol_data": {
-                "decimals": 6,
-                "denom": "ujkl",
-                "account_prefix": "jkl",
-                "chain_registry_name": "jackal",
-                "chain_id": "jackal-1",
-                "gas_price": 0.002
-            }
-        },
-        "derivation_path": "m/44'/118'",
-        "rpc_urls": [
-            {
-                "url": "https://rpc.cosmos.directory/jackal",
-                "api_url": "https://rest.cosmos.directory/jackal"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
     "JKL-IBC_OSMO": {
         "coin": "JKL-IBC_OSMO",
         "type": "TENDERMINTTOKEN",
@@ -54797,7 +55178,7 @@
     "JUNO-IBC_NLS": {
         "coin": "JUNO-IBC_NLS",
         "type": "TENDERMINTTOKEN",
-        "name": "JUNO",
+        "name": "Juno",
         "coinpaprika_id": "",
         "coingecko_id": "",
         "livecoinwatch_id": "",
@@ -54809,7 +55190,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": true,
-        "fname": "JUNO",
+        "fname": "Juno",
         "avg_blocktime": 7,
         "mm2": 1,
         "protocol": {
@@ -54881,6 +55262,45 @@
         ],
         "explorer_block_url": "block/"
     },
+    "KAVA": {
+        "coin": "KAVA",
+        "type": "TENDERMINT",
+        "name": "Kava",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://atomscan.com/kava",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "account/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": true,
+        "avg_blocktime": 7,
+        "fname": "Kava",
+        "mm2": 1,
+        "protocol": {
+            "type": "TENDERMINT",
+            "protocol_data": {
+                "decimals": 6,
+                "denom": "ukava",
+                "account_prefix": "kava",
+                "chain_registry_name": "kava",
+                "chain_id": "kava_2222-10",
+                "gas_price": 0.1
+            }
+        },
+        "derivation_path": "m/44'/459'",
+        "rpc_urls": [
+            {
+                "url": "https://rpc.cosmos.directory/kava",
+                "api_url": "https://rest.cosmos.directory/kava"
+            }
+        ],
+        "explorer_block_url": "block/",
+        "binance_id": "KAVA"
+    },
     "KAVA-IBC_OSMO": {
         "coin": "KAVA-IBC_OSMO",
         "type": "TENDERMINTTOKEN",
@@ -54930,7 +55350,8 @@
                 "api_url": "https://rest.cosmos.directory/osmosis"
             }
         ],
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "binance_id": "KAVA"
     },
     "KLEO-IBC_OSMO": {
         "coin": "KLEO-IBC_OSMO",
@@ -55903,44 +56324,6 @@
         ],
         "explorer_block_url": "block/"
     },
-    "LRZ": {
-        "coin": "LRZ",
-        "type": "TENDERMINT",
-        "name": "Lorenzo Protocol",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "livecoinwatch_id": "",
-        "explorer_url": "https://scan.lorenzo-protocol.xyz/",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": true,
-        "avg_blocktime": 7,
-        "fname": "Lorenzo Protocol",
-        "mm2": 1,
-        "protocol": {
-            "type": "TENDERMINT",
-            "protocol_data": {
-                "decimals": 18,
-                "denom": "alrz",
-                "account_prefix": "lrz",
-                "chain_registry_name": "lorenzo",
-                "chain_id": "lorenzo_8329-1",
-                "gas_price": 2000000
-            }
-        },
-        "derivation_path": "m/44'/60'",
-        "rpc_urls": [
-            {
-                "url": "https://rpc.cosmos.directory/lorenzo",
-                "api_url": "https://rest.cosmos.directory/lorenzo"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
     "LST-IBC_PICA": {
         "coin": "LST-IBC_PICA",
         "type": "TENDERMINTTOKEN",
@@ -56108,7 +56491,7 @@
     "LUNA-IBC_OSMO": {
         "coin": "LUNA-IBC_OSMO",
         "type": "TENDERMINTTOKEN",
-        "name": "Luna",
+        "name": "Terra",
         "coinpaprika_id": "",
         "coingecko_id": "",
         "livecoinwatch_id": "",
@@ -56120,7 +56503,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": true,
-        "fname": "Luna",
+        "fname": "Terra",
         "avg_blocktime": 7,
         "mm2": 1,
         "protocol": {
@@ -56160,7 +56543,7 @@
     "LUNA-IBC_PRYZM": {
         "coin": "LUNA-IBC_PRYZM",
         "type": "TENDERMINTTOKEN",
-        "name": "Luna",
+        "name": "Terra",
         "coinpaprika_id": "",
         "coingecko_id": "terra-luna-2",
         "livecoinwatch_id": "",
@@ -56172,7 +56555,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": true,
-        "fname": "Luna",
+        "fname": "Terra",
         "avg_blocktime": 7,
         "mm2": 1,
         "protocol": {
@@ -56197,7 +56580,7 @@
     "LUNA-IBC_SWTH": {
         "coin": "LUNA-IBC_SWTH",
         "type": "TENDERMINTTOKEN",
-        "name": "Terra Staking Coin",
+        "name": "Terra",
         "coinpaprika_id": "",
         "coingecko_id": "",
         "livecoinwatch_id": "",
@@ -56209,7 +56592,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": true,
-        "fname": "Terra Staking Coin",
+        "fname": "Terra",
         "avg_blocktime": 7,
         "mm2": 1,
         "protocol": {
@@ -56273,7 +56656,7 @@
     "LUNC-IBC_OSMO": {
         "coin": "LUNC-IBC_OSMO",
         "type": "TENDERMINTTOKEN",
-        "name": "Luna Classic",
+        "name": "Terra Classic",
         "coinpaprika_id": "",
         "coingecko_id": "",
         "livecoinwatch_id": "",
@@ -56285,7 +56668,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": true,
-        "fname": "Luna Classic",
+        "fname": "Terra Classic",
         "avg_blocktime": 7,
         "mm2": 1,
         "protocol": {
@@ -58062,7 +58445,7 @@
     "NINJA-IBC_OSMO": {
         "coin": "NINJA-IBC_OSMO",
         "type": "TENDERMINTTOKEN",
-        "name": "Dog wif nunchucks",
+        "name": "Ninja",
         "coinpaprika_id": "",
         "coingecko_id": "",
         "livecoinwatch_id": "",
@@ -58074,7 +58457,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": true,
-        "fname": "Dog wif nunchucks",
+        "fname": "Ninja",
         "avg_blocktime": 7,
         "mm2": 1,
         "protocol": {
@@ -58151,7 +58534,7 @@
     "NLS-IBC_NTRN": {
         "coin": "NLS-IBC_NTRN",
         "type": "TENDERMINTTOKEN",
-        "name": "Nolus NLS",
+        "name": "Nolus",
         "coinpaprika_id": "",
         "coingecko_id": "",
         "livecoinwatch_id": "",
@@ -58163,7 +58546,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": true,
-        "fname": "Nolus NLS",
+        "fname": "Nolus",
         "avg_blocktime": 7,
         "mm2": 1,
         "protocol": {
@@ -58650,7 +59033,7 @@
     "NTRN-IBC_NLS": {
         "coin": "NTRN-IBC_NLS",
         "type": "TENDERMINTTOKEN",
-        "name": "NTRN",
+        "name": "Neutron",
         "coinpaprika_id": "",
         "coingecko_id": "",
         "livecoinwatch_id": "",
@@ -58662,7 +59045,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": true,
-        "fname": "NTRN",
+        "fname": "Neutron",
         "avg_blocktime": 7,
         "mm2": 1,
         "protocol": {
@@ -59323,10 +59706,47 @@
         "explorer_block_url": "block/",
         "binance_id": "OSMO"
     },
+    "OSMO-IBC_DYS": {
+        "coin": "OSMO-IBC_DYS",
+        "type": "TENDERMINTTOKEN",
+        "name": "Osmosis",
+        "coinpaprika_id": "",
+        "coingecko_id": "osmosis",
+        "livecoinwatch_id": "OSMO",
+        "explorer_url": "https://explorer.dys.dysonprotocol.com/dyson/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": true,
+        "fname": "Osmosis",
+        "avg_blocktime": 7,
+        "mm2": 1,
+        "protocol": {
+            "type": "TENDERMINTTOKEN",
+            "protocol_data": {
+                "platform": "DYS",
+                "decimals": 18,
+                "denom": "ibc/13B2C536BB057AC79D5616B8EA1B9540EC1F2170718CAFF6F0083C966FFFED0B",
+                "gas_price": 0.0002
+            }
+        },
+        "parent_coin": "DYS",
+        "rpc_urls": [
+            {
+                "url": "https://rpc.cosmos.directory/dyson",
+                "api_url": "https://rest.cosmos.directory/dyson"
+            }
+        ],
+        "explorer_block_url": "block/",
+        "binance_id": "OSMO"
+    },
     "OSMO-IBC_FLIX": {
         "coin": "OSMO-IBC_FLIX",
         "type": "TENDERMINTTOKEN",
-        "name": "Osmosis osmo",
+        "name": "Osmosis",
         "coinpaprika_id": "",
         "coingecko_id": "osmosis",
         "livecoinwatch_id": "OSMO",
@@ -59338,7 +59758,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": true,
-        "fname": "Osmosis osmo",
+        "fname": "Osmosis",
         "avg_blocktime": 7,
         "mm2": 1,
         "protocol": {
@@ -59437,7 +59857,7 @@
     "OSMO-IBC_PRYZM": {
         "coin": "OSMO-IBC_PRYZM",
         "type": "TENDERMINTTOKEN",
-        "name": "Osmo",
+        "name": "Osmosis",
         "coinpaprika_id": "",
         "coingecko_id": "osmosis",
         "livecoinwatch_id": "OSMO",
@@ -59449,7 +59869,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": true,
-        "fname": "Osmo",
+        "fname": "Osmosis",
         "avg_blocktime": 7,
         "mm2": 1,
         "protocol": {
@@ -60330,7 +60750,7 @@
     "PUNDIX-IBC_OSMO": {
         "coin": "PUNDIX-IBC_OSMO",
         "type": "TENDERMINTTOKEN",
-        "name": "Pundi X Token",
+        "name": "Pundi X Chain",
         "coinpaprika_id": "",
         "coingecko_id": "",
         "livecoinwatch_id": "",
@@ -60342,7 +60762,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": true,
-        "fname": "Pundi X Token",
+        "fname": "Pundi X Chain",
         "avg_blocktime": 7,
         "mm2": 1,
         "protocol": {
@@ -60528,44 +60948,6 @@
             {
                 "url": "https://rpc.cosmos.directory/osmosis",
                 "api_url": "https://rest.cosmos.directory/osmosis"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "QCK": {
-        "coin": "QCK",
-        "type": "TENDERMINT",
-        "name": "Quicksilver",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "livecoinwatch_id": "",
-        "explorer_url": "https://exp.utsa.tech/quicksilver",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "account/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": true,
-        "avg_blocktime": 7,
-        "fname": "Quicksilver",
-        "mm2": 1,
-        "protocol": {
-            "type": "TENDERMINT",
-            "protocol_data": {
-                "decimals": 6,
-                "denom": "uqck",
-                "account_prefix": "quick",
-                "chain_registry_name": "quicksilver",
-                "chain_id": "quicksilver-2",
-                "gas_price": 0.0001
-            }
-        },
-        "derivation_path": "m/44'/118'",
-        "rpc_urls": [
-            {
-                "url": "https://rpc.cosmos.directory/quicksilver",
-                "api_url": "https://rest.cosmos.directory/quicksilver"
             }
         ],
         "explorer_block_url": "block/"
@@ -62040,7 +62422,7 @@
     "SCR-IBC_OSMO": {
         "coin": "SCR-IBC_OSMO",
         "type": "TENDERMINTTOKEN",
-        "name": "Scorum",
+        "name": "Scorum Network",
         "coinpaprika_id": "",
         "coingecko_id": "",
         "livecoinwatch_id": "",
@@ -62052,7 +62434,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": true,
-        "fname": "Scorum",
+        "fname": "Scorum Network",
         "avg_blocktime": 7,
         "mm2": 1,
         "protocol": {
@@ -62130,7 +62512,7 @@
     "SCRT-IBC_NLS": {
         "coin": "SCRT-IBC_NLS",
         "type": "TENDERMINTTOKEN",
-        "name": "SCRT",
+        "name": "Secret Network",
         "coinpaprika_id": "",
         "coingecko_id": "",
         "livecoinwatch_id": "SCRT",
@@ -62142,7 +62524,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": true,
-        "fname": "SCRT",
+        "fname": "Secret Network",
         "avg_blocktime": 7,
         "mm2": 1,
         "protocol": {
@@ -62392,45 +62774,6 @@
             }
         ],
         "explorer_block_url": "block/"
-    },
-    "SEI": {
-        "coin": "SEI",
-        "type": "TENDERMINT",
-        "name": "Sei",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "livecoinwatch_id": "",
-        "explorer_url": "https://ezstaking.app/sei",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "account/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": true,
-        "avg_blocktime": 7,
-        "fname": "Sei",
-        "mm2": 1,
-        "protocol": {
-            "type": "TENDERMINT",
-            "protocol_data": {
-                "decimals": 6,
-                "denom": "usei",
-                "account_prefix": "sei",
-                "chain_registry_name": "sei",
-                "chain_id": "pacific-1",
-                "gas_price": 0.02
-            }
-        },
-        "derivation_path": "m/44'/118'",
-        "rpc_urls": [
-            {
-                "url": "https://rpc.cosmos.directory/sei",
-                "api_url": "https://rest.cosmos.directory/sei"
-            }
-        ],
-        "explorer_block_url": "block/",
-        "binance_id": "SEI"
     },
     "SEI-IBC_OSMO": {
         "coin": "SEI-IBC_OSMO",
@@ -63892,7 +64235,7 @@
     "STARS-IBC_NLS": {
         "coin": "STARS-IBC_NLS",
         "type": "TENDERMINTTOKEN",
-        "name": "STARS",
+        "name": "Stargaze",
         "coinpaprika_id": "",
         "coingecko_id": "",
         "livecoinwatch_id": "",
@@ -63904,7 +64247,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": true,
-        "fname": "STARS",
+        "fname": "Stargaze",
         "avg_blocktime": 7,
         "mm2": 1,
         "protocol": {
@@ -63979,7 +64322,7 @@
     "STARS-IBC_SWTH": {
         "coin": "STARS-IBC_SWTH",
         "type": "TENDERMINTTOKEN",
-        "name": "Stargaze Staking Coin",
+        "name": "Stargaze",
         "coinpaprika_id": "",
         "coingecko_id": "",
         "livecoinwatch_id": "",
@@ -63991,7 +64334,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": true,
-        "fname": "Stargaze Staking Coin",
+        "fname": "Stargaze",
         "avg_blocktime": 7,
         "mm2": 1,
         "protocol": {
@@ -64089,7 +64432,7 @@
     "STRD-IBC_NLS": {
         "coin": "STRD-IBC_NLS",
         "type": "TENDERMINTTOKEN",
-        "name": "STRD",
+        "name": "Stride",
         "coinpaprika_id": "",
         "coingecko_id": "",
         "livecoinwatch_id": "",
@@ -64101,7 +64444,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": true,
-        "fname": "STRD",
+        "fname": "Stride",
         "avg_blocktime": 7,
         "mm2": 1,
         "protocol": {
@@ -64703,49 +65046,10 @@
         ],
         "explorer_block_url": "block/"
     },
-    "TIA": {
-        "coin": "TIA",
-        "type": "TENDERMINT",
-        "name": "Celestia",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "livecoinwatch_id": "",
-        "explorer_url": "https://explorer.mainnet.dteam.tech/celestia",
-        "explorer_tx_url": "",
-        "explorer_address_url": "",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": true,
-        "avg_blocktime": 7,
-        "fname": "Celestia",
-        "mm2": 1,
-        "protocol": {
-            "type": "TENDERMINT",
-            "protocol_data": {
-                "decimals": 6,
-                "denom": "utia",
-                "account_prefix": "celestia",
-                "chain_registry_name": "celestia",
-                "chain_id": "celestia",
-                "gas_price": 0.02
-            }
-        },
-        "derivation_path": "m/44'/118'",
-        "rpc_urls": [
-            {
-                "url": "https://rpc.cosmos.directory/celestia",
-                "api_url": "https://rest.cosmos.directory/celestia"
-            }
-        ],
-        "explorer_block_url": "block/",
-        "binance_id": "TIA"
-    },
     "TIA-IBC_NLS": {
         "coin": "TIA-IBC_NLS",
         "type": "TENDERMINTTOKEN",
-        "name": "TIA",
+        "name": "Celestia",
         "coinpaprika_id": "",
         "coingecko_id": "",
         "livecoinwatch_id": "",
@@ -64757,7 +65061,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": true,
-        "fname": "TIA",
+        "fname": "Celestia",
         "avg_blocktime": 7,
         "mm2": 1,
         "protocol": {
@@ -64782,7 +65086,7 @@
     "TIA-IBC_NTRN": {
         "coin": "TIA-IBC_NTRN",
         "type": "TENDERMINTTOKEN",
-        "name": "Celestia TIA",
+        "name": "Celestia",
         "coinpaprika_id": "",
         "coingecko_id": "",
         "livecoinwatch_id": "",
@@ -64794,7 +65098,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": true,
-        "fname": "Celestia TIA",
+        "fname": "Celestia",
         "avg_blocktime": 7,
         "mm2": 1,
         "protocol": {
@@ -64871,7 +65175,7 @@
     "TIA-IBC_PRYZM": {
         "coin": "TIA-IBC_PRYZM",
         "type": "TENDERMINTTOKEN",
-        "name": "Tia",
+        "name": "Celestia",
         "coinpaprika_id": "",
         "coingecko_id": "celestia",
         "livecoinwatch_id": "",
@@ -64883,7 +65187,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": true,
-        "fname": "Tia",
+        "fname": "Celestia",
         "avg_blocktime": 7,
         "mm2": 1,
         "protocol": {
@@ -64945,7 +65249,7 @@
     "TIA-IBC_SWTH": {
         "coin": "TIA-IBC_SWTH",
         "type": "TENDERMINTTOKEN",
-        "name": "Celestia TIA",
+        "name": "Celestia",
         "coinpaprika_id": "",
         "coingecko_id": "",
         "livecoinwatch_id": "",
@@ -64957,7 +65261,7 @@
         "is_testnet": false,
         "currently_enabled": false,
         "wallet_only": true,
-        "fname": "Celestia TIA",
+        "fname": "Celestia",
         "avg_blocktime": 7,
         "mm2": 1,
         "protocol": {
@@ -65155,6 +65459,44 @@
         ],
         "explorer_block_url": "block/"
     },
+    "TOKEN": {
+        "coin": "TOKEN",
+        "type": "TENDERMINT",
+        "name": "Loop",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://ping.pfc.zone/loop",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": true,
+        "avg_blocktime": 7,
+        "fname": "Loop",
+        "mm2": 1,
+        "protocol": {
+            "type": "TENDERMINT",
+            "protocol_data": {
+                "decimals": 9,
+                "denom": "token",
+                "account_prefix": "loop",
+                "chain_registry_name": "loop",
+                "chain_id": "loop-1",
+                "gas_price": 0
+            }
+        },
+        "derivation_path": "m/44'/118'",
+        "rpc_urls": [
+            {
+                "url": "https://rpc.cosmos.directory/loop",
+                "api_url": "https://rest.cosmos.directory/loop"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "TORI": {
         "coin": "TORI",
         "type": "TENDERMINT",
@@ -65244,6 +65586,44 @@
         ],
         "explorer_block_url": "block/"
     },
+    "TTNC": {
+        "coin": "TTNC",
+        "type": "TENDERMINT",
+        "name": "TakeTitan",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://scan.taketitan.com/taketitan",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": true,
+        "avg_blocktime": 7,
+        "fname": "TakeTitan",
+        "mm2": 1,
+        "protocol": {
+            "type": "TENDERMINT",
+            "protocol_data": {
+                "decimals": 6,
+                "denom": "ttnc",
+                "account_prefix": "taketitan",
+                "chain_registry_name": "taketitan",
+                "chain_id": "taketitan-12",
+                "gas_price": 5e-06
+            }
+        },
+        "derivation_path": "m/44'/1179993421'",
+        "rpc_urls": [
+            {
+                "url": "https://rpc.cosmos.directory/taketitan",
+                "api_url": "https://rest.cosmos.directory/taketitan"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "UM-IBC_OSMO": {
         "coin": "UM-IBC_OSMO",
         "type": "TENDERMINTTOKEN",
@@ -65291,6 +65671,44 @@
             {
                 "url": "https://rpc.cosmos.directory/osmosis",
                 "api_url": "https://rest.cosmos.directory/osmosis"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "UMEE": {
+        "coin": "UMEE",
+        "type": "TENDERMINT",
+        "name": "UX Chain",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://atomscan.com/umee",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "account/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": true,
+        "avg_blocktime": 7,
+        "fname": "UX Chain",
+        "mm2": 1,
+        "protocol": {
+            "type": "TENDERMINT",
+            "protocol_data": {
+                "decimals": 6,
+                "denom": "uumee",
+                "account_prefix": "umee",
+                "chain_registry_name": "umee",
+                "chain_id": "umee-1",
+                "gas_price": 0.12
+            }
+        },
+        "derivation_path": "m/44'/118'",
+        "rpc_urls": [
+            {
+                "url": "https://rpc.cosmos.directory/umee",
+                "api_url": "https://rest.cosmos.directory/umee"
             }
         ],
         "explorer_block_url": "block/"
@@ -65384,6 +65802,42 @@
         ],
         "explorer_block_url": "block/"
     },
+    "USDC-IBC_ARCH": {
+        "coin": "USDC-IBC_ARCH",
+        "type": "TENDERMINTTOKEN",
+        "name": "USDC (Noble)",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "USDC",
+        "explorer_url": "https://archway.exploreme.pro/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": true,
+        "fname": "USDC (Noble)",
+        "avg_blocktime": 7,
+        "mm2": 1,
+        "protocol": {
+            "type": "TENDERMINTTOKEN",
+            "protocol_data": {
+                "platform": "ARCH",
+                "decimals": 6,
+                "denom": "ibc/43897B9739BD63E3A08A88191999C632E052724AB96BD4C74AE31375C991F48D",
+                "gas_price": 225400000000
+            }
+        },
+        "parent_coin": "ARCH",
+        "rpc_urls": [
+            {
+                "url": "https://rpc.cosmos.directory/archway",
+                "api_url": "https://rest.cosmos.directory/archway"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "USDC-IBC_BZE": {
         "coin": "USDC-IBC_BZE",
         "type": "TENDERMINTTOKEN",
@@ -65452,6 +65906,42 @@
             {
                 "url": "https://rpc.cosmos.directory/dydx",
                 "api_url": "https://rest.cosmos.directory/dydx"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "USDC-IBC_DYS": {
+        "coin": "USDC-IBC_DYS",
+        "type": "TENDERMINTTOKEN",
+        "name": "USD Coin",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "USDC",
+        "explorer_url": "https://explorer.dys.dysonprotocol.com/dyson/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": true,
+        "fname": "USD Coin",
+        "avg_blocktime": 7,
+        "mm2": 1,
+        "protocol": {
+            "type": "TENDERMINTTOKEN",
+            "protocol_data": {
+                "platform": "DYS",
+                "decimals": 18,
+                "denom": "ibc/13DF61376C08483555C6D4C9203612086A1B23218EB5EBDBE609EEC7EFF2D82D",
+                "gas_price": 0.0002
+            }
+        },
+        "parent_coin": "DYS",
+        "rpc_urls": [
+            {
+                "url": "https://rpc.cosmos.directory/dyson",
+                "api_url": "https://rest.cosmos.directory/dyson"
             }
         ],
         "explorer_block_url": "block/"
@@ -65755,42 +66245,6 @@
             {
                 "url": "https://rpc.cosmos.directory/pryzm",
                 "api_url": "https://rest.cosmos.directory/pryzm"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "USDC-IBC_QCK": {
-        "coin": "USDC-IBC_QCK",
-        "type": "TENDERMINTTOKEN",
-        "name": "Noble USDC",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "livecoinwatch_id": "USDC",
-        "explorer_url": "https://exp.utsa.tech/quicksilver",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "account/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": true,
-        "fname": "Noble USDC",
-        "avg_blocktime": 7,
-        "mm2": 1,
-        "protocol": {
-            "type": "TENDERMINTTOKEN",
-            "protocol_data": {
-                "platform": "QCK",
-                "decimals": 6,
-                "denom": "ibc/5666A86DCC869C75F69A7938AD6DCFECAC4A09C73522599E7A85B10143E5FBD2",
-                "gas_price": 0.0001
-            }
-        },
-        "parent_coin": "QCK",
-        "rpc_urls": [
-            {
-                "url": "https://rpc.cosmos.directory/quicksilver",
-                "api_url": "https://rest.cosmos.directory/quicksilver"
             }
         ],
         "explorer_block_url": "block/"
@@ -66492,6 +66946,42 @@
         ],
         "explorer_block_url": "block/"
     },
+    "WBTC-IBC_DYS": {
+        "coin": "WBTC-IBC_DYS",
+        "type": "TENDERMINTTOKEN",
+        "name": "Wrapped Bitcoin",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "WBTC",
+        "explorer_url": "https://explorer.dys.dysonprotocol.com/dyson/",
+        "explorer_tx_url": "",
+        "explorer_address_url": "",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": true,
+        "fname": "Wrapped Bitcoin",
+        "avg_blocktime": 7,
+        "mm2": 1,
+        "protocol": {
+            "type": "TENDERMINTTOKEN",
+            "protocol_data": {
+                "platform": "DYS",
+                "decimals": 18,
+                "denom": "ibc/9BF31153F7E37F687C75A2F310E7A4DB6E0512B065F709B5EB69FE828133AFAC",
+                "gas_price": 0.0002
+            }
+        },
+        "parent_coin": "DYS",
+        "rpc_urls": [
+            {
+                "url": "https://rpc.cosmos.directory/dyson",
+                "api_url": "https://rest.cosmos.directory/dyson"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "WBTC-IBC_NLS": {
         "coin": "WBTC-IBC_NLS",
         "type": "TENDERMINTTOKEN",
@@ -67090,42 +67580,6 @@
             {
                 "url": "https://rpc.cosmos.directory/neutron",
                 "api_url": "https://rest.cosmos.directory/neutron"
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "WOSMO-IBC_SEI": {
-        "coin": "WOSMO-IBC_SEI",
-        "type": "TENDERMINTTOKEN",
-        "name": "Wosmo",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "livecoinwatch_id": "",
-        "explorer_url": "https://ezstaking.app/sei",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "account/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": true,
-        "fname": "Wosmo",
-        "avg_blocktime": 7,
-        "mm2": 1,
-        "protocol": {
-            "type": "TENDERMINTTOKEN",
-            "protocol_data": {
-                "platform": "SEI",
-                "decimals": 6,
-                "denom": "ibc/B023C57727A38A9CF87238F9008477C3761AD4774D528BFA458DD707D90B553A",
-                "gas_price": 0.02
-            }
-        },
-        "parent_coin": "SEI",
-        "rpc_urls": [
-            {
-                "url": "https://rpc.cosmos.directory/sei",
-                "api_url": "https://rest.cosmos.directory/sei"
             }
         ],
         "explorer_block_url": "block/"

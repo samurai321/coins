@@ -64,7 +64,17 @@ def get_new_coins():
     new_explorers = {}
     new_images = {}
     new_gecko_ids = {}
+    fnames = {}
     dead = []
+    with open("../coins", "r") as f:
+        old_coins = json.load(f)
+
+    # Get coin fullnames to standardise on IBC assets
+    for i in cosmos_chains:
+        fnames.update({i["symbol"]: i["pretty_name"]})
+    for i in old_coins:
+        fnames.update({i["coin"]: i["fname"]})
+        
     for i in cosmos_chains:
         main_symbol = i["symbol"]
         time.sleep(0.1)
@@ -192,7 +202,7 @@ def get_new_coins():
                 )
                 continue
 
-            print(f"Processing {ticker} ({j['name']})")
+            print(f"Processing {ticker} ({fname})")
             try:
                 if "coingecko_id" not in j:
                     gecko_id = ""
@@ -203,12 +213,16 @@ def get_new_coins():
                 if j["symbol"] == main_symbol:
                     print(f"Skipping {ticker} because you cant be a token of yourself")
                     continue
-
+                if symbol in fnames:
+                    fullname = fnames[symbol]
+                else:
+                    fullname = j['name']
+                
                 new_coins_data.append(
                     {
                         "coin": ticker,
                         "name": ticker.lower(),
-                        "fname": j["name"],
+                        "fname": fullname,
                         "avg_blocktime": avg_blocktime,
                         "mm2": mm2,
                         "wallet_only": wallet_only,
