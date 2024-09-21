@@ -27266,11 +27266,11 @@
         "derivation_path": "m/44'/81'",
         "electrum": [
             {
-                "url": "pot-duo.ewmcx.net:50012",
+                "url": "pot-uno.ewmcx.net:50002",
                 "protocol": "SSL"
             },
             {
-                "url": "pot-uno.ewmcx.net:50002",
+                "url": "pot-duo.ewmcx.net:50012",
                 "protocol": "SSL"
             }
         ],
@@ -43385,6 +43385,15 @@
         "electrum": [
             {
                 "url": "electrum1.kiirocoin.org:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.kiirocoin.org:50002",
                 "protocol": "SSL",
                 "contact": [
                     {

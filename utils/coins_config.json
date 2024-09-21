@@ -19675,6 +19675,18 @@
                 "protocol": "TCP"
             },
             {
+                "url": "electrum22.groestlcoin.org:50001",
+                "contact": [
+                    {
+                        "email": "jackielove4u@hotmail.com"
+                    },
+                    {
+                        "discord": "jackielove4u#0412"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
                 "url": "electrum23.groestlcoin.org:50001",
                 "contact": [
                     {
@@ -20026,6 +20038,18 @@
             },
             {
                 "url": "electrum21.groestlcoin.org:50004",
+                "contact": [
+                    {
+                        "email": "jackielove4u@hotmail.com"
+                    },
+                    {
+                        "discord": "jackielove4u#0412"
+                    }
+                ],
+                "protocol": "WSS"
+            },
+            {
+                "url": "electrum22.groestlcoin.org:50004",
                 "contact": [
                     {
                         "email": "jackielove4u@hotmail.com"
@@ -32073,19 +32097,19 @@
         "derivation_path": "m/44'/81'",
         "electrum": [
             {
-                "url": "pot-duo.ewmcx.net:50012",
-                "protocol": "SSL"
-            },
-            {
                 "url": "pot-uno.ewmcx.net:50002",
                 "protocol": "SSL"
             },
             {
-                "url": "pot-duo.ewmcx.net:50013",
-                "protocol": "WSS"
+                "url": "pot-duo.ewmcx.net:50012",
+                "protocol": "SSL"
             },
             {
                 "url": "pot-uno.ewmcx.net:50003",
+                "protocol": "WSS"
+            },
+            {
+                "url": "pot-duo.ewmcx.net:50013",
                 "protocol": "WSS"
             }
         ],
@@ -51586,6 +51610,15 @@
                 ]
             },
             {
+                "url": "electrum2.kiirocoin.org:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
+                    }
+                ]
+            },
+            {
                 "url": "electrum3.kiirocoin.org:50002",
                 "protocol": "SSL",
                 "contact": [
@@ -51596,6 +51629,15 @@
             },
             {
                 "url": "electrum1.kiirocoin.org:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.kiirocoin.org:50004",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -52035,6 +52077,30 @@
         "derivation_path": "m/44'/141'",
         "trezor_coin": "Komodo",
         "electrum": [
+            {
+                "url": "electrum.lupacoin.biz:17487",
+                "contact": [
+                    {
+                        "email": "contact@lupacoin.biz"
+                    },
+                    {
+                        "github": "LUPAZA-coin"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrum1.lupacoin.biz:17487",
+                "contact": [
+                    {
+                        "email": "contact@lupacoin.biz"
+                    },
+                    {
+                        "github": "LUPAZA-coin"
+                    }
+                ],
+                "protocol": "TCP"
+            },
             {
                 "url": "electrum.lupacoin.biz:50005",
                 "protocol": "SSL",
