@@ -501,18 +501,21 @@ class CoinConfig:
 
         if explorers:
             explorer = explorers[0]
-            for x in explorers:
-                for p in explorer_paths:
-                    if x.find(p) > -1:
-                        self.data[self.ticker].update(explorer_paths[p])
-                        break
-
-                for px in PREFERRED_EXPLORERS:
-                    if px in explorer:
+            for px in PREFERRED_EXPLORERS:
+                for x in explorers:    
+                    if px in x:
                         explorer = x
                         break
+                if explorer != explorers[0]:
+                    break
+            
+            for xp in explorer_paths:
+                if x.find(xp) > -1:
+                    self.data[self.ticker].update(explorer_paths[xp])
+                    break
 
-            self.data[self.ticker].update({"explorer_url": explorers[0]})
+
+            self.data[self.ticker].update({"explorer_url": explorer})
             for i in [
                 ("explorer_tx_url", "tx/"),
                 ("explorer_address_url", "address/"),
