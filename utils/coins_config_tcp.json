@@ -40958,15 +40958,6 @@
         "slp_prefix": "slptest",
         "electrum": [
             {
-                "url": "electroncash.de:50004",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
-                    }
-                ]
-            },
-            {
                 "url": "electrs.electroncash.de:60002",
                 "protocol": "SSL",
                 "contact": [
@@ -40977,6 +40968,15 @@
             },
             {
                 "url": "tbch.loping.net:60002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
+                    }
+                ]
+            },
+            {
+                "url": "electroncash.de:50004",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -41680,9 +41680,9 @@
         "coinpaprika_id": "atom-cosmos",
         "coingecko_id": "cosmos",
         "livecoinwatch_id": "ATOM",
-        "explorer_url": "https://irishub.iobscan.io/",
-        "explorer_tx_url": "#/txs/",
-        "explorer_address_url": "#/address/",
+        "explorer_url": "https://www.mintscan.io/iris",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "account/",
         "supported": [],
         "active": false,
         "is_testnet": false,
