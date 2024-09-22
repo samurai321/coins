@@ -1,11 +1,11 @@
 [
-    "https://atomscan.com/band-protocol",
-    "https://cosmoscan.io",
-    "https://exp.nodeist.net/band",
-    "https://explorer.kjnodes.com/band",
-    "https://explorer.stavr.tech/Band-Mainnet",
-    "https://explorer.tendermint.roomit.xyz/band-mainnet",
-    "https://ping.pub/band-protocol",
-    "https://stakeflow.io/band-protocol",
-    "https://www.mintscan.io/band"
+    "https://atomscan.com/band-protocol/",
+    "https://cosmoscan.io/",
+    "https://exp.nodeist.net/band/",
+    "https://explorer.kjnodes.com/band/",
+    "https://explorer.stavr.tech/Band-Mainnet/",
+    "https://explorer.tendermint.roomit.xyz/band-mainnet/",
+    "https://ping.pub/band-protocol/",
+    "https://stakeflow.io/band-protocol/",
+    "https://www.mintscan.io/band/"
 ]

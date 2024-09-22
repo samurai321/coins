@@ -1,13 +1,12 @@
 [
-    "https://atomscan.com",
-    "https://exp.nodeist.net/cosmos",
-    "https://explorer.tcnetwork.io/cosmoshub",
-    "https://ezstaking.app/cosmoshub",
-    "https://inbloc.org",
-    "https://mainnet.whispernode.com/cosmos",
-    "https://ping.pub/cosmos",
-    "https://stakeflow.io/cosmos",
-    "https://unicha.in/cosmos",
-    "https://www.mintscan.io/cosmos",
+    "https://atomscan.com/",
+    "https://exp.nodeist.net/cosmos/",
+    "https://explorer.tcnetwork.io/cosmoshub/",
+    "https://ezstaking.app/cosmoshub/",
+    "https://inbloc.org/",
+    "https://mainnet.whispernode.com/cosmos/",
+    "https://ping.pub/cosmos/",
+    "https://stakeflow.io/cosmos/",
+    "https://unicha.in/cosmos/",
     "https://www.mintscan.io/cosmos/"
 ]

@@ -1,10 +1,10 @@
 [
-    "https://atomscan.com/sentinel",
-    "https://explorer.declab.pro/Sentinel",
+    "https://atomscan.com/sentinel/",
+    "https://explorer.declab.pro/Sentinel/",
     "https://explorer.nodeshub.online/sentinel/",
-    "https://explorer.tendermint.roomit.xyz/sentinel-mainnet",
-    "https://explorer.validatornode.com/sentinel",
-    "https://ezstaking.app/sentinel",
-    "https://mainnet.whispernode.com/sentinel",
-    "https://www.mintscan.io/sentinel"
+    "https://explorer.tendermint.roomit.xyz/sentinel-mainnet/",
+    "https://explorer.validatornode.com/sentinel/",
+    "https://ezstaking.app/sentinel/",
+    "https://mainnet.whispernode.com/sentinel/",
+    "https://www.mintscan.io/sentinel/"
 ]

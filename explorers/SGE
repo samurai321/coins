@@ -1,11 +1,11 @@
 [
-    "https://blockexplorer.sgenetwork.io/sge",
-    "https://cosmotracker.com/sge",
-    "https://explorer.konsortech.xyz/sge",
-    "https://explorer.nodestake.top/sge",
-    "https://explorer.safeblock.space/sge",
-    "https://explorer.stavr.tech/Sge-Mainnet",
-    "https://explorer.tcnetwork.io/sge",
-    "https://explorer.tendermint.roomit.xyz/sge-mainnet",
-    "https://explorer.whenmoonwhenlambo.money/sge"
+    "https://blockexplorer.sgenetwork.io/sge/",
+    "https://cosmotracker.com/sge/",
+    "https://explorer.konsortech.xyz/sge/",
+    "https://explorer.nodestake.top/sge/",
+    "https://explorer.safeblock.space/sge/",
+    "https://explorer.stavr.tech/Sge-Mainnet/",
+    "https://explorer.tcnetwork.io/sge/",
+    "https://explorer.tendermint.roomit.xyz/sge-mainnet/",
+    "https://explorer.whenmoonwhenlambo.money/sge/"
 ]

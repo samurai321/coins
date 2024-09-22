@@ -64,7 +64,7 @@
 	},
 	"https://www.mintscan.io/": {
 		"explorer_tx_url": "tx/",
-		"explorer_address_url": "account/"
+		"explorer_address_url": "address/"
 	},
 	"https://irishub.iobscan.io/": {
 		"explorer_tx_url": "#/txs/",

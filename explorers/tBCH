@@ -1,1 +1,4 @@
-["https://tbch.loping.net/", "https://blockstream.info/testnet/"]
+[
+    "https://blockstream.info/testnet/",
+    "https://tbch.loping.net/"
+]

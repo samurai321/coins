@@ -66,7 +66,20 @@ explorer_coins = [
     f
     for f in os.listdir(f"{repo_path}/explorers")
     if os.path.isfile(f"{repo_path}/explorers/{f}")
+    and f != "explorer_paths.json"
 ]
+
+# Sort and add trailing slash to explorer urls
+for i in explorer_coins:
+    with open(f"{repo_path}/explorers/{i}", "r") as f:
+        explorers = json.load(f)
+        for x in range(len(explorers)):
+            if not explorers[x].endswith("/"):
+                explorers[x] += "/"
+        explorers = list(set(explorers))
+        explorers.sort()
+        with open(f"{repo_path}/explorers/{i}", "w") as f:
+            json.dump(explorers, f, indent=4)
 
 binance_quote_tickers = [
     "BTC",

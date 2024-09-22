@@ -1,11 +1,11 @@
 [
-    "https://atomscan.com/comdex",
+    "https://atomscan.com/comdex/",
     "https://comdex.aneka.io/",
-    "https://explorer.stavr.tech/Comdex-Mainnet",
-    "https://explorer.validatornode.com/comdex",
-    "https://ezstaking.app/comdex",
-    "https://mainnet.whispernode.com/comdex",
-    "https://ping.pub/comdex",
-    "https://stakeflow.io/comdex",
-    "https://www.mintscan.io/comdex"
+    "https://explorer.stavr.tech/Comdex-Mainnet/",
+    "https://explorer.validatornode.com/comdex/",
+    "https://ezstaking.app/comdex/",
+    "https://mainnet.whispernode.com/comdex/",
+    "https://ping.pub/comdex/",
+    "https://stakeflow.io/comdex/",
+    "https://www.mintscan.io/comdex/"
 ]

@@ -1,9 +1,9 @@
 [
-    "https://exp.utsa.tech/quicksilver",
-    "https://explorer.konsortech.xyz/quicksilver/staking",
-    "https://explorer.stake-take.com/quicksilver",
-    "https://explorer.stavr.tech/quicksilver-mainnet",
-    "https://explorer.theamsolutions.info/quicksilver-main/staking",
-    "https://ezstaking.app/quicksilver",
-    "https://www.mintscan.io/quicksilver"
+    "https://exp.utsa.tech/quicksilver/",
+    "https://explorer.konsortech.xyz/quicksilver/staking/",
+    "https://explorer.stake-take.com/quicksilver/",
+    "https://explorer.stavr.tech/quicksilver-mainnet/",
+    "https://explorer.theamsolutions.info/quicksilver-main/staking/",
+    "https://ezstaking.app/quicksilver/",
+    "https://www.mintscan.io/quicksilver/"
 ]
